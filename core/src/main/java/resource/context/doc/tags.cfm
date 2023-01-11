@@ -10,7 +10,7 @@
 </cfif>
 
 
-<cf_doc_layout title="Lucee Tag Reference">
+<cf_doc_layout title="Vasya Tag Reference">
 
 
 <cfoutput>

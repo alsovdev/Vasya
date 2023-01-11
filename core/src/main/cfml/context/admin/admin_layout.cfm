@@ -20,7 +20,7 @@
 <cfoutput>
 <html>
 <head>
-	<title>#attributes.title# - Lucee #ucFirst(request.adminType)# Administrator</title>
+	<title>#attributes.title# - Vasya #ucFirst(request.adminType)# Administrator</title>
 	<link rel="stylesheet" href="../res/css/admin-#resNameAppendix#.css.cfm" type="text/css">
 	<meta name="robots" content="noindex,nofollow">
 	<cfhtmlhead action="flush">

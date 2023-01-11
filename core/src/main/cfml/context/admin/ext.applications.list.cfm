@@ -66,8 +66,8 @@
 		<cfloop list="#request.adminType=="web"?"server,web":"web"#" item="_type">
 			<cfset _extensions=_type=="web"?extensions:serverExtensions>
 		<cfif _type=="server">
-		<div style="text-align:center;background: ##fff;margin:10px 0px 0px 0px;border-radius: 10px;border:1px solid ##bf4f36;">
-				<h3 style="color:##bf4f36;margin-top:5px">#stText.ext.installedInServer#</h3>
+		<div style="text-align:center;background: ##fff;margin:10px 0px 0px 0px;border-radius: 10px;border:1px solid ##65a052;">
+				<h3 style="color:##65a052;margin-top:5px">#stText.ext.installedInServer#</h3>
 		</cfif>
 		<div<cfif _type=="web"> style="margin-top:10px"<cfelse>  style="margin:0px 0px 4px 0px"</cfif> class="extensionlist">
 			<cfloop query=_extensions>
@@ -110,10 +110,10 @@
 Categories:<cfif isArray(cat)>#arrayToList(cat)#<cfelse>#cat#</cfif>
 Installed version: #_extensions.version#<cfif hasUpdates>
 Latest version: #latest.v#</cfif>"><cfif hasUpdates>
-       <div class="ribbon-wrapper" <cfif _type=="server">style="border-color:##bf4f36"</cfif>><div class="ribbon" <cfif _type=="server">style="background-color:##bf4f36"</cfif>>UPDATE ME!</div></div>
+       <div class="ribbon-wrapper" <cfif _type=="server">style="border-color:##65a052"</cfif>><div class="ribbon" <cfif _type=="server">style="background-color:##65a052"</cfif>>UPDATE ME!</div></div>
 </cfif>
 <cfif _extensions.trial>
-       <div class="ribbon-left-wrapper"><div class="ribbon-left" <cfif _type=="server">style="background-color:##bf4f36"</cfif>>TRIAL</div></div>
+       <div class="ribbon-left-wrapper"><div class="ribbon-left" <cfif _type=="server">style="background-color:##65a052"</cfif>>TRIAL</div></div>
 </cfif>	
 							<div class="extimg" id="extimg_#_extensions.id#">
 								<cfif len(dn)>
@@ -121,10 +121,10 @@ Latest version: #latest.v#</cfif>"><cfif hasUpdates>
 								</cfif>
 							</div>
 							<cfset listinstalled = listinstalled+1>
-							<span <cfif _type=="server">style="color:##bf4f36"</cfif>>#cut(_extensions.name,40)#<br>
+							<span <cfif _type=="server">style="color:##65a052"</cfif>>#cut(_extensions.name,40)#<br>
 							#_extensions.version#<br />
 							</span>
-							<span class="comment" <cfif _type=="server">style="color:##bf4f36"</cfif>>
+							<span class="comment" <cfif _type=="server">style="color:##65a052"</cfif>>
 							<cfif hasUpdates>#latest.v#</cfif></span>
 
 						</a>

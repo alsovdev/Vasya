@@ -246,7 +246,7 @@ function validatePass() {
 		$("#passEmpty").focus();
 		$("#passEmpty").style.backgroundColor = "#ffeeee";
 		$("#messagePass").innerHTML = "This field not to be empty";
-		$("#messagePass").style.color = "#bf4f36";
+		$("#messagePass").style.color = "#65a052";
 		disableBlockUI=true;
 		return false;
 	}

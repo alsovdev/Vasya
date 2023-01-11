@@ -1,7 +1,7 @@
 <cfinclude template="/lucee/admin/resources/text.cfm">
 
 
-<cf_doc_layout title="Lucee Function Reference">
+<cf_doc_layout title="Vasya Function Reference">
 
 
 <cfoutput>

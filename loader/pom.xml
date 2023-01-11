@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.lucee</groupId>
-  <artifactId>lucee</artifactId>
-  <version>5.3.10.97-SNAPSHOT</version>
+  <artifactId>vasya</artifactId>
+  <version>5.3.10.97</version>
   <packaging>jar</packaging>
 
-  <name>Lucee Loader Build</name>
+  <name>Vasya Loader Build</name>
   <description>Building the Lucee Loader JAR</description>
   <url>http://maven.lucee.org/loader/</url>
 

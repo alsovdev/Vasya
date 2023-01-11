@@ -1,7 +1,7 @@
 <cfinclude template="/lucee/admin/resources/text.cfm">
 
 
-<cf_doc_layout title="Lucee Object Methods Reference">
+<cf_doc_layout title="Vasya Object Methods Reference">
 
 
 <cfoutput>

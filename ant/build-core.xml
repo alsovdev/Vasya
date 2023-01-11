@@ -1335,7 +1335,7 @@
     <!-- genrates the jar from the loader -->
     <jar 
       basedir="${temp}/loader" 
-      jarfile="${trgLoader}/lucee-${version}.jar" 
+      jarfile="${trgLoader}/vasya-${version}.jar" 
       manifest="${goal}/META-INF/MANIFEST.MF"/>
       <echots message="build-jar-ant:${goal}/META-INF/MANIFEST.MF"/>
     

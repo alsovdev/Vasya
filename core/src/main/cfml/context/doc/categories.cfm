@@ -99,7 +99,7 @@
 	</script>
 </cfsavecontent>
 
-<cfmodule template="doc_layout.cfm" title="Lucee Tag Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
+<cfmodule template="doc_layout.cfm" title="Vasya Tag Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
 <cfoutput>
 	<div class="tile-wrap">
 		<div class="tile">

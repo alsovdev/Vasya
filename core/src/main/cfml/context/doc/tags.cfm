@@ -101,7 +101,7 @@
 	</script>
 </cfsavecontent>
 
-<cfmodule template="doc_layout.cfm" title="Lucee Tag Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
+<cfmodule template="doc_layout.cfm" title="Vasya Tag Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
 
 <cfoutput>
 	<cfif len( url.item )>
@@ -116,13 +116,13 @@
 				<div class="tile">
 					<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 						<li><a href="index.cfm">Home</a></li>
-						<li><a href="tags.cfm">Lucee tags</a></li>
+						<li><a href="tags.cfm">Vasya tags</a></li>
 						<li class="active">&lt;#lCase( tagName )#&gt;</li>
 					</ul>
 				</div>
 			</div>
 		<cfelse>
-			<h2 style="text-align: center;">Lucee Tags</h2>
+			<h2 style="text-align: center;">Vasya Tags</h2>
 		</cfif>
 		<h2><em>&lt;#data.nameSpace##data.Name#&gt;</em></h2>
 
@@ -297,12 +297,12 @@
 			<div class="tile">
 				<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 					<li><a href="index.cfm">Home</a></li>
-					<li class="active">Lucee tags</li>
+					<li class="active">Vasya tags</li>
 				</ul>
 			</div>
 		</div>
 
-		<p>Tags are at the core of Lucee Server's templating language. You can check out every tag that has been created using the A-Z index below.</p>
+		<p>Tags are at the core of Vasya Server's templating language. You can check out every tag that has been created using the A-Z index below.</p>
 
 		<cfset qryAllItems = queryNew("tags")>
 		<cfloop array="#arrAllItems#" index="ai">

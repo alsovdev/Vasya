@@ -81,7 +81,7 @@
 
 
 
-<cfmodule template="doc_layout.cfm" title="Lucee object methods reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
+<cfmodule template="doc_layout.cfm" title="Vasya object methods reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
 
 <cfoutput>
 	<cfif len( url.item )>
@@ -92,7 +92,7 @@
 			<div class="tile">
 				<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 					<li><a href="index.cfm">Home</a></li>
-					<li><a href="objects.cfm">Lucee objects</a></li>
+					<li><a href="objects.cfm">Vasya objects</a></li>
 					<li class="active">#ucFirst(data.member.type)#.#data.member.name#</li>
 				</ul>
 			</div>
@@ -178,7 +178,7 @@
 			<div class="tile">
 				<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 					<li><a href="index.cfm">Home</a></li>
-					<li class="active">Lucee objects</li>
+					<li class="active">Vasya objects</li>
 				</ul>
 			</div>
 		</div>

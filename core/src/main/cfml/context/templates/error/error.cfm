@@ -46,7 +46,7 @@
 <cfoutput>
 <table id="-lucee-err" cellpadding="4" cellspacing="1">
 	<tr>
-		<td colspan="2" class="label">Lucee #server.lucee.version# Error (#catch.type#)</td>
+		<td colspan="2" class="label">Vasya #server.lucee.version# Error (#catch.type#)</td>
 	</tr>
 	<cfparam name="catch.message" default="">
 	<tr>

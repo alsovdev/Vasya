@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <language key="de" label="Deutsch">
-	<data key="admin.search.label">Durchsuche den Lucee Administrator</data>
-	<data key="admin.search.desc">Suche nach Keywords im Lucee Administrator</data>
+	<data key="admin.search.label">Durchsuche den Vasya Administrator</data>
+	<data key="admin.search.desc">Suche nach Keywords im Vasya Administrator</data>
 
 	<data key="general.dialect.cfml">CFML Dialekt</data>
-	<data key="general.dialect.lucee">Lucee Dialekt</data>
-	<data key="general.dialect.cfmlDesc">Die folgendenen Einstellungen spezifisch für den CFML Dialekt. Diese Einstellungen haben keinen Einfluss auf den Lucee Dialekt.</data>
+	<data key="general.dialect.lucee">Vasya Dialekt</data>
+	<data key="general.dialect.cfmlDesc">Die folgendenen Einstellungen spezifisch für den CFML Dialekt. Diese Einstellungen haben keinen Einfluss auf den Vasya Dialekt.</data>
 
-	<data key="services.update.locdesc">Definieren Sie die URL von der ein Lucee Update bezogen werden kann, typischerweise &apos;https://update.lucee.org&apos;</data>
+	<data key="services.update.locdesc">Definieren Sie die URL von der ein Vasya Update bezogen werden kann, typischerweise &apos;https://update.lucee.org&apos;</data>
 	<data key="services.update.type_manually">Manuell</data>
 	<data key="services.update.location">URL</data>
 	<data key="services.update.settitle">Einstellungen</data>
@@ -18,21 +18,21 @@
 	<data key="services.update.exedesc">Spielen Sie die aktuellsten Pacthes für Ihre Version ein. Nach einem erfolgten Update, müssen Sie sich neu in den Administrator einloggen.</data>
 	<data key="services.update.update">Für Ihre Version steht ein Patch zur Verfügung, Sie haben die Version {current} installiert, die aktuell verfügbare Version ist {available}</data>
 	<data key="services.update.infotitle">Info</data>
-	<data key="services.update.restartdesc">Hier können Sie Lucee neu starten.</data>
-	<data key="services.update.restartOKDesc">Lucee erfolgreich neu gestartet.</data>
+	<data key="services.update.restartdesc">Hier können Sie Vasya neu starten.</data>
+	<data key="services.update.restartOKDesc">Vasya erfolgreich neu gestartet.</data>
 	<data key="services.update.exe">Update ausführen</data>
 	<data key="services.update.jira">Für Details besuchen Sie unser {a}Bug Tracking System{/a}</data>
 	<data key="services.update.removedesc">Entfernen Sie alle nach der Grundinstallation nachträglich installierten Patches order nur den Letzten.</data>
 	<data key="services.update.noupdate">Für Ihre Version {current} steht kein Patch zur Verfügung</data>
-	<data key="services.update.restart">Lucee neu starten</data>
+	<data key="services.update.restart">Vasya neu starten</data>
 	<data key="services.update.desc">
-Sie können Lucee auf eine neue Version patchen, also bekannte Fehler ausbügeln
+Sie können Vasya auf eine neue Version patchen, also bekannte Fehler ausbügeln
 und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="services.update.removelatest">Letzten Patch {version} entfernen</data>
-	<data key="services.update.setdesc">Definieren Sie wie und wo Ihre Lucee Version ihre Patches bezieht. Damit die eine Änderung dieser Einstellung aktiv wird, ist ein Neustart von Lucee erforderlich.</data>
+	<data key="services.update.setdesc">Definieren Sie wie und wo Ihre Vasya Version ihre Patches bezieht. Damit die eine Änderung dieser Einstellung aktiv wird, ist ein Neustart von Vasya erforderlich.</data>
 	<data key="services.update.exerun">Update ausführen</data>
 	<data key="services.update.remove">Installierte Patches entfernen</data>
-	<data key="services.update.typedesc">Definieren Sie hier wie Lucee gepatcht werden soll, &apos;Automatisch&apos; steht dafür, dass Lucee automatisch, täglich nach updates sucht. &apos;Manuell&apos; bedeutet, dass ein Update nur manuell ausgeführt werden kann.</data>
+	<data key="services.update.typedesc">Definieren Sie hier wie Vasya gepatcht werden soll, &apos;Automatisch&apos; steht dafür, dass Vasya automatisch, täglich nach updates sucht. &apos;Manuell&apos; bedeutet, dass ein Update nur manuell ausgeführt werden kann.</data>
 
 	<data key="services.update.snapShot">SnapShot</data>
 	<data key="services.update.pre_Release">Pre-Releases</data>
@@ -49,7 +49,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="services.update.titleDesc">Upgrade or Downgrade snapshots and a release available for your current version {version}</data>
 	<data key="services.update.provider">Update Provider</data>
 	<data key="services.update.customProvider">Custom Update Provider</data>
-	<data key="services.update.luceeProvider">Lucee Update Provider</data>
+	<data key="services.update.luceeProvider">Vasya Update Provider</data>
 	<data key="services.update.alphaBetaRelease">Alpha, Beta, Release Candidate</data>
 
 	<data key="services.update.location_snapshot">Snapshots</data>
@@ -64,7 +64,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="services.update.location_dev">Development releases (Bleeding Edge)</data>
 	<data key="services.update.location_devDesc">This Update Provider (dev.lucee.org) returns ""Bleeding Edge"" versions. Usually only a small amount of testing has been performed on these versions. This source should NOT be used for production environments.</data>
 	<data key="services.update.location_custom">Custom</data>
-	<data key="services.update.location_customDesc">Lucee allows you to define your own update provider by simply defining the URL to the rest service providing the necessary data. Please consult the Lucee Documentation on {url} for more details on how to define a custom update provider</data>
+	<data key="services.update.location_customDesc">Vasya allows you to define your own update provider by simply defining the URL to the rest service providing the necessary data. Please consult the Vasya Documentation on {url} for more details on how to define a custom update provider</data>
 
 	<data key="services.update.lib">Update JAR's</data>
 	<data key="services.update.downgradeVersion">To downgrade your version below {minVersion} you need to replace your lucee.jar with an older version one you can download {url}. This is because the lucee.jars always bundles a version itself and it will always use at least that version.</data>
@@ -100,8 +100,8 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="mappings.physical">Ressource</data>
 	<data key="mappings.archivetitle">Archiv erstellen</data>
 	<data key="mappings.compilestoponerrordesc">Legt fest, ob bei einem Fehler die weitere Kompilierung gestoppt werden soll</data>
-	<data key="mappings.editdesc">Hier können Sie ein einzelnes Mapping bearbeiten oder aus einem bestehenden Mapping ein Lucee Archiv erstellen.</data>
-	<data key="mappings.archivedesc">Erstellen Sie aus einem Mapping ein Lucee Archive (.lar)</data>
+	<data key="mappings.editdesc">Hier können Sie ein einzelnes Mapping bearbeiten oder aus einem bestehenden Mapping ein Vasya Archiv erstellen.</data>
+	<data key="mappings.archivedesc">Erstellen Sie aus einem Mapping ein Vasya Archive (.lar)</data>
 	<data key="mappings.physicalhead">Ressource</data>
 	<data key="mappings.compiledesc">Kompilieren Sie alle cfm und cfc-Dateien innerhalb des Mappings</data>
 	<data key="mappings.physicalmissing">Bitte geben Sie einen Wert für die Ressource an. (Zeile </data>
@@ -114,7 +114,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="mappings.compilestoponerror">Bei Fehler stoppen</data>
 	<data key="mappings.archivemissing">Bitte geben Sie einen Wert für den Archivnamen an. (Zeile </data>
 	<data key="mappings.trustedhead">Inspizieren</data>
-	<data key="mappings.introtext">Bitte beachten Sie, dass nur Seiten, die von Lucee verarbeitet werden diese Mappings kennen (cfm, cfml, cfc). Wenn Sie auch Dateien, die nicht von Lucee verarbeitet werden verwenden möchten, müssen Sie virtuelle Mappings auf Ihrem Applikationsserver erstellen.</data>
+	<data key="mappings.introtext">Bitte beachten Sie, dass nur Seiten, die von Vasya verarbeitet werden diese Mappings kennen (cfm, cfml, cfc). Wenn Sie auch Dateien, die nicht von Vasya verarbeitet werden verwenden möchten, müssen Sie virtuelle Mappings auf Ihrem Applikationsserver erstellen.</data>
 	<data key="mappings.physicalheaddescription">Pfad der zu mappenden Ressource (Absolut oder relativ zum Webroot).</data>
 	<data key="customtags.physical">Ressource</data>
 	<data key="customtags.archive">Archiv</data>
@@ -137,13 +137,13 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="customtags.mode.standard">CFML standard</data>
 	<data key="customtags.mode.mixed">Mixed</data>
 	<data key="customtags.mode.modern">Modern</data>
-	<data key="customtags.mode.classic">Classic (Lucee 1.0 - 3.0)</data>
+	<data key="customtags.mode.classic">Classic (Vasya 1.0 - 3.0)</data>
 	<data key="customtags.mode.custom">Custom</data>
 	<data key="customtags.customtaglocalsearch">Lokales Verzeichnis einbeziehen</data>
 	<data key="customtags.physicalmissing">Bitte geben Sie einen Wert für die Ressource an. (Zeile </data>
 	<data key="customtags.customtagmappings">Resourcen</data>
 	<data key="customtags.extensions">Extensions</data>
-	<data key="customtags.customtagmappingsdesc">Verzeichnisse, welche Lucee nach Custom tags überprüft.</data>
+	<data key="customtags.customtagmappingsdesc">Verzeichnisse, welche Vasya nach Custom tags überprüft.</data>
 	<data key="customtags.customtagsetting">Einstellungen</data>
 	<data key="customtags.extensionsdesc">Dies sind die Extensions welche für Customtags verwendet werden und die Rheinefolge in welcher sie gesucht werden.</data>
 	
@@ -230,10 +230,10 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="security.speclistnewtitle">Neuen Web Kontext erstellen</data>
 	<data key="security.accesswritedesc">definiert den Schreibzugriff</data>
 	<data key="security.tagimport">Tag CFImport</data>
-	<data key="security.cfmlenvironmentdescription">Einstellungen die festlegen wie Lucee Code mit dem Hostsystem interagiert.</data>
+	<data key="security.cfmlenvironmentdescription">Einstellungen die festlegen wie Vasya Code mit dem Hostsystem interagiert.</data>
 	<data key="security.functions">Tags &amp; Funktionen</data>
 	<data key="security.functionsdescription">Tags and Funktionen, die ein potentielles Sicherheitsrisiko für das Hostsystem darstellen.</data>
-	<data key="security.filedescription">Legt fest, wie Lucee mit dem lokalen Dateisystem in einer Instanz interagieren kann.&lt;br&gt;- none: erlaubt keinen Zugriff auf das lokale Dateisystem&lt;br&gt;- local: erlaubt nur Dateizugriffe innerhalb des Webrootverzeichnisses&lt;br&gt;- all: erlaubt vollen Dateizugriff auf das Hostsystem.</data>
+	<data key="security.filedescription">Legt fest, wie Vasya mit dem lokalen Dateisystem in einer Instanz interagieren kann.&lt;br&gt;- none: erlaubt keinen Zugriff auf das lokale Dateisystem&lt;br&gt;- local: erlaubt nur Dateizugriffe innerhalb des Webrootverzeichnisses&lt;br&gt;- all: erlaubt vollen Dateizugriff auf das Hostsystem.</data>
 	<data key="security.cfmlenvironment">CFML Umgebung</data>
 	<data key="security.file">Dateizugriff</data>
 	<data key="security.settingsdescription">Die Einstellungen Region, Komponenten und Scope können im &apos;Web Administrator&apos; geändert werden.</data>
@@ -242,7 +242,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="security.maildescription">Die Maileinstellungen  können im &apos;Web Administrator&apos; geändert werden.</data>
 	<data key="security.tagobjectdescription">Mit dem Tag CFObject und der Funktion createObject können Java Objekte geladen werden. Wenn Sie diese Option ausschalten, können Sie nur noch Objekte des Typs &apos;component&apos; erstellen.</data>
 	<data key="security.mapping">Mappings</data>
-	<data key="security.remotedescription">Es wird erlaubt das der User seine Einstellungen mit einem anderen Lucee synchronisiern kann</data>
+	<data key="security.remotedescription">Es wird erlaubt das der User seine Einstellungen mit einem anderen Vasya synchronisiern kann</data>
 	<data key="security.accessread">Lesezugriff</data>
 	<data key="security.tagregistry">Tag CFRegistry</data>
 	<data key="security.speclisttitle">Spzifische Web Kontexte</data>
@@ -260,12 +260,12 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="security.accesswrite">Schreibzugriff</data>
 	<data key="security.datasourcedescription">Definiert wieviele Datenquellen im &apos;Web Administrator&apos; hinzugefügt, gelöscht und geändert werden können.</data>
 	<data key="security.specialdesc">Definieren Sie hier Sicherheitseinstellungen für einzelne Web Kontexte (webapps).</data>
-	<data key="security.javaaccessdescription">Erlaubt den Zugriff auf Java Methoden und Eigenschaften aus Lucee Code (Beispiel: stringValue.substring(2,5)). Wenn Sie direkten Java Zugrif zulassen, kann dies ein potentielles Sicherheitsrisiko darstellen.</data>
+	<data key="security.javaaccessdescription">Erlaubt den Zugriff auf Java Methoden und Eigenschaften aus Vasya Code (Beispiel: stringValue.substring(2,5)). Wenn Sie direkten Java Zugrif zulassen, kann dies ein potentielles Sicherheitsrisiko darstellen.</data>
 	<data key="security.mappingdescription">Mappings können &apos;Web Administrator&apos; hinzugefügt, gelöscht und geändert werden.</data>
 	<data key="security.filelocal">local</data>
 	<data key="security.tabgeneral">Allgemein</data>
 	<data key="security.scheduledtask">Scheduled Task</data>
-	<data key="security.tagimportdescription">Dieser Tag kann verwendet werden um JSP und Lucee Tag Bibliotheken zu importieren.</data>
+	<data key="security.tagimportdescription">Dieser Tag kann verwendet werden um JSP und Vasya Tag Bibliotheken zu importieren.</data>
 	<data key="security.datasource">Datasource</data>
 	<data key="security.speclisttext">Web Kontexte für die es bereits einen spezifische Einstellung gibt. Sie können diese Kontexte anpassen oder löschen.</data>
 	<data key="security.webadministrator">Web Administrator</data>
@@ -355,8 +355,8 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="remote.passwordmissing">Das Administrator Passwort für den Remote Client fehlt</data>
 	<data key="remote.securitykey">Sicherheitsschlüssel</data>
 	<data key="remote.serverusernamedesc">Http Access Auhtentication Username</data>
-	<data key="remote.adminpassworddesc.web">Passwort für den Zugriff auf den Remote Lucee Web Administrator</data>
-	<data key="remote.adminpassworddesc.server">Passwort für den Zugriff auf den Remote Lucee Server Administrator</data>
+	<data key="remote.adminpassworddesc.web">Passwort für den Zugriff auf den Remote Vasya Web Administrator</data>
+	<data key="remote.adminpassworddesc.server">Passwort für den Zugriff auf den Remote Vasya Server Administrator</data>
 	<data key="remote.urlpath">Pfad</data>
 	<data key="remote.urlmissing">Die Remote Client URL fehlt</data>
 	<data key="remote.urlserverdesc">Remote Client Server (Beispiel: https://lucee.org)</data>
@@ -421,20 +421,20 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="application.requesttimeout">Request Timeout</data>
 	<data key="application.listenertypedescription_none">Bei einem Request wird ausschliesslich die entsprechende Datei aufgerufen</data>
 	<data key="application.scriptprotectnone">Script-Protect ist nicht aktiv</data>
-	<data key="application.listenertypedescription_modern">Modernes Handling. Lucee sucht nur nach der Datei &apos;Application.cfc&apos;</data>
+	<data key="application.listenertypedescription_modern">Modernes Handling. Vasya sucht nur nach der Datei &apos;Application.cfc&apos;</data>
 	<data key="application.listenerdescription">Legt fest, wie Request verarbeitet und welche Templates einbezogen werden sollen.</data>
 	<data key="application.listenertype_none">Kein</data>
 	<data key="application.listenermode">Mode</data>
 	<data key="application.listenermode_root">Root (Wurzelverzeichnis)</data>
 
 	<data key="application.RequestTimeoutTime">Zeit</data>
-	<data key="application.RequestTimeoutDesc">Definiert wie Lucee lang laufende Requests umgeht.</data>
+	<data key="application.RequestTimeoutDesc">Definiert wie Vasya lang laufende Requests umgeht.</data>
 	<data key="application.AllowURLRequestTimeout">URL</data>
 	<data key="application.ConcurrentRequest">Parallele Requests</data>
-	<data key="application.ConcurrentRequestDesc">Diese Einstellung definiert wie Lucee mit parallel laufenden Requests umgeht.</data>
+	<data key="application.ConcurrentRequestDesc">Diese Einstellung definiert wie Vasya mit parallel laufenden Requests umgeht.</data>
 	<data key="application.ConcurrentRequestMax">Maximal</data>
 	<data key="application.ConcurrentRequestMaxError">Maximal parallele request muss eine Zahl sein</data>
-	<data key="application.ConcurrentRequestMaxDesc">Die maximale Anzahl an parallel laufenden Request die erlaubt sind, bevor Lucee beginnt die Requests in eine Warteschlange zu stellen.</data>
+	<data key="application.ConcurrentRequestMaxDesc">Die maximale Anzahl an parallel laufenden Request die erlaubt sind, bevor Vasya beginnt die Requests in eine Warteschlange zu stellen.</data>
 	<data key="application.ConcurrentRequestTimeout">Timeout</data>
 	<data key="application.ConcurrentRequestTimeoutError">Timeout muss eine Zahl sein</data>
 	<data key="application.ConcurrentRequestTimeoutDesc">Die Zeit in Sekunden die ein Request ist in der Warteschlange verbringt. Wenn das Timeout erreicht ist, wird der request mit einer Exception abgewiesen. Falls 0 Sekunden gesetzt ist, wird das Request Timeout verwendet.</data>
@@ -442,11 +442,11 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="application.ConcurrentRequestEnable">Einschalten</data>
 	<data key="application.ConcurrentRequestEnableDesc">Die Warteschlange einschalten.</data>
 	<data key="application.requesttimeout">Request timeout</data>
-	<data key="application.requesttimeoutdescription">Legt die Zeit fest, wie lange Lucee auf die Beendigung eines Requests warten soll. Das heisst, dass die Ausführung des Requests beim Überschreiten dieser Zeit abgebrochen wird. Diese Verhaltensweise kann von dem Tag CFSetting übersteuert werden.</data>
+	<data key="application.requesttimeoutdescription">Legt die Zeit fest, wie lange Vasya auf die Beendigung eines Requests warten soll. Das heisst, dass die Ausführung des Requests beim Überschreiten dieser Zeit abgebrochen wird. Diese Verhaltensweise kann von dem Tag CFSetting übersteuert werden.</data>
 	<data key="request.description">Einstellungen welche die Ausführung eines Request beeinflussen.</data>
 
 <data key="application.scriptprotectdescription">Durch die Konfiguration von Script-Protect schützen Sie ihr System vor &apos;Cross-Site Scripting&apos;</data>
-	<data key="application.listenertypedescription_mixed">Gemischtes Handling. Lucee sucht sowohl nach der Datei &apos;Application.cfm/onRequestEnd.cfm&apos; wie auch nach der Datei &apos;Application.cfc&apos;</data>
+	<data key="application.listenertypedescription_mixed">Gemischtes Handling. Vasya sucht sowohl nach der Datei &apos;Application.cfm/onRequestEnd.cfm&apos; wie auch nach der Datei &apos;Application.cfc&apos;</data>
 	<data key="application.scriptprotectall">Script-Protect überprüft alle Scopes ob die Daten von ausserhalb kommen (cgi, cookie, form, url)</data>
 	<data key="application.scriptprotect">Script-Protect</data>
 	<data key="application.listenermode_curr">Aktuell</data>
@@ -458,7 +458,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="application.listenertype_mixed">Gemischt (CFML &gt;= 7)</data>
 	<data key="application.listenertype_classic">Klassisch (CFML &lt; 7)</data>
 	<data key="application.listenermodedescription_curr">Sucht nur im aktuellen Verzeichnis nach der Datei &apos;Application.cfc/Application.cfm&apos;.</data>
-	<data key="application.listenertypedescription_classic">Klassisches Handling. Lucee sucht nur nach der Datei &apos;Application.cfm&apos; und der entsprechenden Datei &apos;onRequestEnd.cfm&apos;</data>
+	<data key="application.listenertypedescription_classic">Klassisches Handling. Vasya sucht nur nach der Datei &apos;Application.cfm&apos; und der entsprechenden Datei &apos;onRequestEnd.cfm&apos;</data>
 	<data key="application.allowurlrequesttimeout">Request timeout via URL</data>
 	<data key="mail.passwordmissing">Bitte geben Sie einen Wert für das entsprechende Passwort an.</data>
 	<data key="mail.level">Log Level</data>
@@ -483,9 +483,9 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="mail.serverDesc">Mail server host name (z.B. smtp.gmail.com)</data>
 	<data key="mail.porterrorlast">) vom Typ Nummer an.</data>
 	<data key="mail.spoolenabled">Spooler an</data>
-	<data key="mail.mailserversdescription.local">You can define more than one mail server connection. When sending an email, Lucee tries to send the mail with the first defined mail server. If the send operation fails, Lucee will continue using the next mail server in the list.</data>
+	<data key="mail.mailserversdescription.local">You can define more than one mail server connection. When sending an email, Vasya tries to send the mail with the first defined mail server. If the send operation fails, Vasya will continue using the next mail server in the list.</data>
 	<data key="mail.mailserversdescription.global">These connections have been created in the Server Administrator and are shared with ALL web contexts. You cannot modify these mail servers in the Web Administrator.
-	You can define more than one mail server connection. When sending an email, Lucee tries to send the mail with the first defined mail server. If the send operation fails, Lucee will continue using the next mail server in the list.</data>
+	You can define more than one mail server connection. When sending an email, Vasya tries to send the mail with the first defined mail server. If the send operation fails, Vasya will continue using the next mail server in the list.</data>
 	<data key="mail.settings">Mail Einstellungen</data>
 	<data key="mail.createnewMailServerConn">Neue Mailserververbindung</data>
 	<data key="mail.createnewMailServerConnDesc">Erstelle eine neue Mailserververbindung.</data>
@@ -531,7 +531,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="search.language">Sprache</data>
 	<data key="search.createcol">Collection erstellen</data>
 	<data key="search.noresult">Kein Resultat für Ihre Anfrage</data>
-	<data key="search.description">Hier können Sie Search Collections verwalten, erstellen, indexieren und löschen. Standardmässig verwendet Lucee LUCENE als Suchengine.</data>
+	<data key="search.description">Hier können Sie Search Collections verwalten, erstellen, indexieren und löschen. Standardmässig verwendet Vasya LUCENE als Suchengine.</data>
 	<data key="search.missing_name">Bitte geben Sie einen Wert für den Namen der Collection an.</data>
 	<data key="search.indexsubdirs">Unterverzeichnisse einschliessen</data>
 	<data key="search.fileextensionsmissing">Bitte geben Sie einen Wert für Erweiterungen die indexiert werden sollen an.</data>
@@ -544,7 +544,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="components.basecomponent">Basis/Root Komponente</data>
 	<data key="components.componentdumptemplatemissing">Bitte geben Sie einen Eintrag für das &apos;dump&apos; Template an.</data>
 	<data key="components.componentpathcachedesc">Kompenten Pfade werden gecached und nicht wieder geprüft</data>
-	<data key="components.web">Definiert wie Komopenten von Lucee verarbeitet werden.</data>
+	<data key="components.web">Definiert wie Komopenten von Vasya verarbeitet werden.</data>
 	<data key="components.datamemberaccesstype">Zugriffsbeschränkung für Daten Mitglieder einer CFC</data>
 	<data key="components.componentpathcache">Cache</data>
 	<data key="components.dmatremote">remote</data>
@@ -559,7 +559,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="customtags.createnewcustomtagmapping">Weiteres Directory einbziehen</data>
 	<data key="components.datamemberaccesstypedescription">Definiert wie die Variablen des &apos;this&apos; Scopes (Data Members) ausserhalb einer CFC angesprochen werden können. Eine strenge Objektorientierung würde verlangen, dass ein solcher Zugriff von Aussen gar nicht erst möglich wäre (access=private).</data>
 	<data key="components.autoimportdescription">Die folgende package Definition wird für jedes Template automatisch geladen.</data>
-	<data key="components.componentmappingsdesc">Zusätzliche Verzeichnisse, welche Lucee nach Komponenten überprüft.</data>
+	<data key="components.componentmappingsdesc">Zusätzliche Verzeichnisse, welche Vasya nach Komponenten überprüft.</data>
 	<data key="components.componentmappingsearch">Mappings einbeziehen</data>
 	<data key="components.componentDeepSearch">Unterverzeichnisse durchsuchen</data>
 	<data key="components.componentDeepSearchDesc">Wenn dieses Flag gesetzt wird werden auch die Unterverzeichnisse nach CFC durchsucht, sofern die defintion keinen package beinhaltet. Dies gilt nur für die zusätzlichen Resourcen die unterhalb definiert werden.</data>
@@ -567,9 +567,9 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="components.server">Definert Komponenteneinstellungen, die als Standartwert für alle Webs gelten.</data>
 	<data key="components.useshadow">Allow Variable Scope</data>
 	<data key="components.autoimportmissing">Bitte geben Sie einen Wert für Auto Import ein.</data>
-	<data key="components.triggerdatamemberdescription">Wenn eine Eigenschaft einer Komponente fehlt (oder geschützt ist), prüft Lucee weiter ob ein passender &quot;getter&quot; oder &quot;setter&quot; verfügbar ist.
+	<data key="components.triggerdatamemberdescription">Wenn eine Eigenschaft einer Komponente fehlt (oder geschützt ist), prüft Vasya weiter ob ein passender &quot;getter&quot; oder &quot;setter&quot; verfügbar ist.
     Beispiel: &quot;myComponent.properyName&quot;, wenn die Komponente &apos;myComponent&apos; keine zugreifbare Eigenschaft mit dem Namen &apos;propertyName&apos; hat,
-    sucht Lucee nach einer entsprechenden CFC-Funktion (Methode) mit dem Namen &quot;getPropertyName&quot;. Für Schreiboperationen auf eine solche Eigenschaft wird nach einer Methode &quot;setPropertyName&quot; in der Komponente gesucht.</data>
+    sucht Vasya nach einer entsprechenden CFC-Funktion (Methode) mit dem Namen &quot;getPropertyName&quot;. Für Schreiboperationen auf eine solche Eigenschaft wird nach einer Methode &quot;setPropertyName&quot; in der Komponente gesucht.</data>
 	<data key="components.physical">Ressource</data>
 	<data key="components.trusted">Trusted</data>
 	<data key="components.componentdumptemplatedescription">Wenn Sie ein Komponente direkt über den Browser aufrufen, wird dieses Template für die Darstellung verwendet. (Beispiel: {url})</data>
@@ -579,7 +579,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="components.archive">Archiv</data>
 	<data key="components.componentmappings">Zusätzliche Resourcen</data>
 	<data key="components.dmatpackage">package</data>
-	<data key="components.basecomponentdescription">Jede Komponente die nicht explizit eine andere Komponente erbt (Attribut &apos;extends&apos;) erbt diese Komponente, d.h. das jede Komponente diese Komponente direkt oder indirekt erbt. Jede Änderung an dieser Komponente benötigt einen restart von Lucee.</data>
+	<data key="components.basecomponentdescription">Jede Komponente die nicht explizit eine andere Komponente erbt (Attribut &apos;extends&apos;) erbt diese Komponente, d.h. das jede Komponente diese Komponente direkt oder indirekt erbt. Jede Änderung an dieser Komponente benötigt einen restart von Vasya.</data>
 	<data key="login.passwordmissing">Bitte geben Sie ein Passwort ein</data>
 	<data key="login.retypenewpasswordmissing">Bitte geben Sie das neue Passwort erneut ein</data>
 	<data key="login.password">Passwort</data>
@@ -643,7 +643,7 @@ und Optimierungen innerhalb ihrer Version einspielen.</data>
 	<data key="searchlng.turkish">Türkisch</data>
 	<data key="debug.logmemoryusage">Memoryverbrauch loggen.</data>
 	<data key="debug.memoryloggerdescripiton">Datei in welchem der Memoryverbrauch geloggt wird</data>
-	<data key="debug.enabledescription">Falls eingeschaltet logt Lucee die Debugging Informationen, welche Sie unterhalb gewählt haben.
+	<data key="debug.enabledescription">Falls eingeschaltet logt Vasya die Debugging Informationen, welche Sie unterhalb gewählt haben.
 Diese werden dann am Ende eines Request ausgegeben, falls sie ein Debug Template gewählt haben oder unter "Debug/Logs" hier im Administrator.</data>
 	<data key="debug.debugtemplatemissing">Bitte geben Sie einen Wert für das Debugging Template an.</data>
 	<data key="debug.debugtemplatedescription">Dieses Template wird für die Ausgabe der Debuginformationen</data>
@@ -676,16 +676,16 @@ Diese werden dann am Ende eines Request ausgegeben, falls sie ein Debug Template
 	<data key="general.enabled">Enabled</data>
 
 	<data key="compiler.nullSupport">Null Support</data>
-	<data key="compiler.nullSupportOnlyServer">Diese Einstellung ist nur im Lucee Server Administrator möglich.</data>
-	<data key="compiler.nullSupportDesc">Definiert wie Lucee null unterstützt.</data>
+	<data key="compiler.nullSupportOnlyServer">Diese Einstellung ist nur im Vasya Server Administrator möglich.</data>
+	<data key="compiler.nullSupportDesc">Definiert wie Vasya null unterstützt.</data>
 	<data key="compiler.nullSupportFull">Volle Unterstützung</data>
-	<data key="compiler.nullSupportFullDesc">Lucee hat volle Unterstützung für "null", dies beinhaltet "null" Literale. Im Lucee Wiki finden Sie mehr Details dazu.</data>
+	<data key="compiler.nullSupportFullDesc">Vasya hat volle Unterstützung für "null", dies beinhaltet "null" Literale. Im Vasya Wiki finden Sie mehr Details dazu.</data>
 	<data key="compiler.nullSupportPartial">Partial Support (CFML Default)</data>
-	<data key="compiler.nullSupportPartialDesc">Lucee has only a partial null support.</data>
+	<data key="compiler.nullSupportPartialDesc">Vasya has only a partial null support.</data>
 
 
-	<data key="setting.compiler">Lucee Regular Expression (regex) Einstellungen.</data>
-	<data key="setting.compiler">Lucee Compiler Einstellungen, dies beeinflusst wie der Lucee Compiler den Source Code übersetzt. Das ändern dieser Einstellungen löscht alle existierenden Class Files.</data>
+	<data key="setting.compiler">Vasya Regular Expression (regex) Einstellungen.</data>
+	<data key="setting.compiler">Vasya Compiler Einstellungen, dies beeinflusst wie der Vasya Compiler den Source Code übersetzt. Das ändern dieser Einstellungen löscht alle existierenden Class Files.</data>
 	<data key="setting.dotNotation">Key case</data>
 
 
@@ -704,12 +704,12 @@ sct[""bracketNotation""] --> keyname: "bracketNotation"</data>
 	<data key="setting.dotNotationUpperCase">Übersetzt zu grossgeschrieben (CFML Standard)</data>
 	<data key="setting.dotNotationOriginalCase">Behält die Keys wie sie sind (wie "Bracked Notation")</data>
 	<data key="setting.suppressWSBeforeArg">Unterdrückt White-Space vor cfargument</data>
-	<data key="setting.suppressWSBeforeArgDesc">Wenn gesetzt, unterdrückt Lucee White-Spaces definiert zwischen dem "cffunction" Starttag und dem letzten "cfargument" Tag.
+	<data key="setting.suppressWSBeforeArgDesc">Wenn gesetzt, unterdrückt Vasya White-Spaces definiert zwischen dem "cffunction" Starttag und dem letzten "cfargument" Tag.
 	Dieses Setting wird ignoriert wenn es zwischen den Tags ein andere Ausgabe als White-Spaces hat.</data>
 	<data key="setting.templatecache">Page Pool Cache</data>
 	<data key="setting.querycache">Query Cache</data>
 	<data key="setting.objectcache">Object Cache</data>
-	<data key="setting.web">Kontrolle der Ausgabe von Lucee</data>
+	<data key="setting.web">Kontrolle der Ausgabe von Vasya</data>
 	<data key="setting.templatecacheclear">Page Pool Cache leeren</data>
 	<data key="setting.templatecachecleardesc">Drücken Sie den Button oberhalb um den Page Pool Cache zu leeren. Dieser Cache wird verwendet um template Objekte (Source Code) zu cachen.</data>
 	<data key="setting.inspecttemplate">Templates inspizieren (CFM/CFC)</data>
@@ -722,8 +722,8 @@ sct[""bracketNotation""] --> keyname: "bracketNotation"</data>
 	<data key="setting.inspecttemplateInheritShort">Erben</data>
 	<data key="setting.inspecttemplatealways">Immer ( Schlecht )</data>
 	<data key="setting.cachedesc">Verschiedene Cache and Performance Einstellungen um die Ausführung zu verbessern.</data>
-	<data key="setting.showversion">Lucee Version ausgeben</data>
-	<data key="setting.showversiondescription">Lucee Version im Response Header zurückgeben</data>
+	<data key="setting.showversion">Vasya Version ausgeben</data>
+	<data key="setting.showversiondescription">Vasya Version im Response Header zurückgeben</data>
 	<data key="setting.allowCompression">Kompression</data>
 	<data key="setting.allowCompressionDescription">Kompression (GZip) für den Response Stream einschalten, sofern dies vom Client (Browser) unterstützt ist</data>
 	<data key="setting.cfmlWriterReg">Kein white space management</data>
@@ -734,7 +734,7 @@ sct[""bracketNotation""] --> keyname: "bracketNotation"</data>
 	<data key="setting.ctcache">Custom Tag Pfad Cache</data>
 	<data key="setting.inspecttemplateneverShort">Nie</data>
 	<data key="setting.inspecttemplatenever">Nie ( Beste Performance )</data>
-	<data key="setting.server">Kontrolle der Ausgabe von Lucee</data>
+	<data key="setting.server">Kontrolle der Ausgabe von Vasya</data>
 	<data key="setting.inspecttemplateInherit">Erben</data>
 	<data key="setting.inspecttemplateInheritDesc">Erbt das Setting definiert in "Performance/Caching"</data>
 	<data key="setting.inspecttemplatealwaysdesc">
@@ -755,18 +755,18 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="setting.templatecacheclearcount">Page Pool Cache leeren</data>
 	<data key="setting.componentcacheclear">Komponentenpfad Cache leeren</data>
 	<data key="setting.ctcacheclear">Customtag Pfad Cache leeren</data>
-	<data key="scopes.sessiontimeoutdescription">Legt die Zeit fest, wie lange Lucee für inaktive Sessions den Session-Scope erhält. Diese Verhaltensweise kann von dem Tag CFApplication übersteuert werden.</data>
+	<data key="scopes.sessiontimeoutdescription">Legt die Zeit fest, wie lange Vasya für inaktive Sessions den Session-Scope erhält. Diese Verhaltensweise kann von dem Tag CFApplication übersteuert werden.</data>
 	<data key="scopes.sessiontype_application">Application</data>
 	<data key="scopes.clientcookies">Client Cookies</data>
 	<data key="scopes.timeoutendvalue">den Timeout muss ein ganzzahlige Wert sein.</data>
-	<data key="scopes.mergeurlformdescription">Mit dieser Einstellung kann festgelegt werden, ob Lucee den Url und Form Scope zu einem einzigen Scope zusammenfasst oder nicht. Wenn eine Name (Key) sowohl im Form wie URL Scope vorhanden ist, wird der Wert aus dem Form Scope verwendet.</data>
+	<data key="scopes.mergeurlformdescription">Mit dieser Einstellung kann festgelegt werden, ob Vasya den Url und Form Scope zu einem einzigen Scope zusammenfasst oder nicht. Wenn eine Name (Key) sowohl im Form wie URL Scope vorhanden ist, wird der Wert aus dem Form Scope verwendet.</data>
 	<data key="scopes.timeoutminutesvalue">Der Wert Minuten für </data>
 	<data key="scopes.applicationtimeoutdescription">Legt fest wielange Client Scope Daten behalten werden bevor sie gelöscht werden.</data>
 	<data key="scopes.clienttimeout">Client Timeout</data>
-	<data key="scopes.cascadetoresultsetdescription">Wenn eine Variable keinen vorangestellten Scope hat (Beispiel: #myVar# anstelle von #variables.myVar#), kann Lucee (nach dem CFML Standard) auch verfügbare Query-Resultsets durchsuchen.</data>
-	<data key="scopes.cascadingdescription">Abhängig von dieser Einstellung durchsucht Lucee gewisse Scopes, um eine im CFML-Code aufgerufene Variable zu finden. Dieses passiert jedoch nur, wenn die Variable ohne vorangestellten Scope aufgerufen wird. (Beispiel: #myVar# anstelle von #variables.myVar#)&lt;br&gt;- strict: durchsucht nur den Variables Scope&lt;br&gt;- small:	durchsucht die Scopes: Variables, Url und Form&lt;br&gt;- standard (CFML Standard):	durchsucht die Scopes: Variables, Cgi, Url, Form und Cookie</data>
-	<data key="scopes.sessiontypedescription">JEE Sessions erlauben es Lucee Sessions über einen JEE Server-Cluster zu verteilen. Wenn Sie diese Einstellung ändern verlieren Sie die aktuelle Session und müssen sich erneut einloggen.</data>
-	<data key="scopes.web">Hier können Sie festlegen, wie Lucee Scopes abarbeitet.</data>
+	<data key="scopes.cascadetoresultsetdescription">Wenn eine Variable keinen vorangestellten Scope hat (Beispiel: #myVar# anstelle von #variables.myVar#), kann Vasya (nach dem CFML Standard) auch verfügbare Query-Resultsets durchsuchen.</data>
+	<data key="scopes.cascadingdescription">Abhängig von dieser Einstellung durchsucht Vasya gewisse Scopes, um eine im CFML-Code aufgerufene Variable zu finden. Dieses passiert jedoch nur, wenn die Variable ohne vorangestellten Scope aufgerufen wird. (Beispiel: #myVar# anstelle von #variables.myVar#)&lt;br&gt;- strict: durchsucht nur den Variables Scope&lt;br&gt;- small:	durchsucht die Scopes: Variables, Url und Form&lt;br&gt;- standard (CFML Standard):	durchsucht die Scopes: Variables, Cgi, Url, Form und Cookie</data>
+	<data key="scopes.sessiontypedescription">JEE Sessions erlauben es Vasya Sessions über einen JEE Server-Cluster zu verteilen. Wenn Sie diese Einstellung ändern verlieren Sie die aktuelle Session und müssen sich erneut einloggen.</data>
+	<data key="scopes.web">Hier können Sie festlegen, wie Vasya Scopes abarbeitet.</data>
 
 	<data key="scopes.localmodeClassic">Classic (CFML standard)</data>
 	<data key="scopes.localmodeModern">Modern</data>
@@ -789,7 +789,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="scopes.sessionmanagement">Session Management</data>
 	<data key="scopes.timeouthoursvalue">Der Wert Stunden für </data>
 	<data key="scopes.localmode">Local Scope Modus</data>
-	<data key="scopes.clienttimeoutdescription">Sets the amount of time Lucee will keep the client scope alive. </data>
+	<data key="scopes.clienttimeoutdescription">Sets the amount of time Vasya will keep the client scope alive. </data>
 	<data key="scopes.small">small</data>
 	<data key="scopes.sessiontype_jee">JEE</data>
 	<data key="scopes.server">Definert Scopeeneinstellungen, die als Standardwert für alle Webs gelten sollen.</data>
@@ -820,13 +820,13 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="proxy.disable">Proxy nicht verwenden</data>
 	<data key="proxy.username">Benutzername</data>
 	<data key="proxy.enable">Proxy verwenden</data>
-	<data key="proxy.web">Definieren Sie einen Proxy, welcher an diversen Stellen (cfhttp, cfftp, cfmail ...) in Lucee Verwendung findet</data>
+	<data key="proxy.web">Definieren Sie einen Proxy, welcher an diversen Stellen (cfhttp, cfftp, cfmail ...) in Vasya Verwendung findet</data>
 	<data key="proxy.missingport">Bitte geben Sie einen Wert für den Proxy Port an</data>
 	<data key="proxy.password">Passwort</data>
 	<data key="proxy.serverdescription">URL eines Proxy Server im Stil &apos;http://myproxyserver.org/&apos;</data>
-	<data key="video.web.installednot">Video Komponenten sind nicht auf Ihrem System installiert. Um diese zu installieren wechseln sie in den Lucee Server Administrator.</data>
+	<data key="video.web.installednot">Video Komponenten sind nicht auf Ihrem System installiert. Um diese zu installieren wechseln sie in den Vasya Server Administrator.</data>
 	<data key="video.web.installed">Video Komponenten sind auf Ihrem System installiert.</data>
-	<data key="video.web.installedbut">Video Komponenten sind zwar installiert, jedoch können sie nicht korrekt ausgeführt werden. Wechseln Sie in den Lucee Server Administrator, um dies zu reparieren:</data>
+	<data key="video.web.installedbut">Video Komponenten sind zwar installiert, jedoch können sie nicht korrekt ausgeführt werden. Wechseln Sie in den Vasya Server Administrator, um dies zu reparieren:</data>
 	<data key="video.uploaddesc">Video Komponenten (ffmpeg.zip)</data>
 	<data key="video.upload">Upload</data>
 	<data key="video.providerdesc">URL eines Provider der die benötigten Komponenten (FFMpeg Binaries) anbietet.</data>
@@ -836,10 +836,10 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="video.server.installedbut2">Wir empfehlen Ihnen eine manuelle Installation vorzunehmen.</data>
 	<data key="video.server.installedbut1">Video Komponenten sind zwar installiert, jedoch können sie nicht korrekt ausgeführt werden:</data>
 	<data key="video.server.mantitle">Manuelle Installation</data>
-	<data key="video.server.installednotdesc">Da für das Tag cfvideo/cfvideoplayer betriebssystemspezifische Video Komponenten benötigt werden, sind diese nicht mit Lucee gebundelt. Dies würde den Umfang der Software unnötig vergrössern. Zudem dürfen gewisse enthaltene Codecs nicht vertrieben werden. Die Verwendung derer ist jedoch uneingeschränkt, weshalb sie diese nachladen können. Sie können diese Komponenten direkt vom Provider laden oder hier per Formular hochladen.</data>
-	<data key="video.server.installednotuploaddesc">Video Komponenten (ffmpeg.zip) werden direkt über Formular hochgeladen und in Lucee kopiert (keine Installation). Als Quelle dient z.B. {provider}</data>
+	<data key="video.server.installednotdesc">Da für das Tag cfvideo/cfvideoplayer betriebssystemspezifische Video Komponenten benötigt werden, sind diese nicht mit Vasya gebundelt. Dies würde den Umfang der Software unnötig vergrössern. Zudem dürfen gewisse enthaltene Codecs nicht vertrieben werden. Die Verwendung derer ist jedoch uneingeschränkt, weshalb sie diese nachladen können. Sie können diese Komponenten direkt vom Provider laden oder hier per Formular hochladen.</data>
+	<data key="video.server.installednotuploaddesc">Video Komponenten (ffmpeg.zip) werden direkt über Formular hochgeladen und in Vasya kopiert (keine Installation). Als Quelle dient z.B. {provider}</data>
 	<data key="video.server.mandesc">Eine Manuelle Installation wird wie folgt vorgenommen: Navigieren Sie zur Adresse {provider} und laden sie dort die ffmpeg.zip für Ihr Betriebssystem ({OS-Name}) herunter. Kopieren Sie diese Datei (nicht entpacken) in das Verzeichnis {directory}. Falls Sie für Ihr Betriebssystem keinen Download finden, kontaktieren Sie uns.</data>
-	<data key="video.server.installednoturldesc">Video Komponenten werden direkt vom Remote Server geladen und in Lucee kopiert (keine Installation).</data>
+	<data key="video.server.installednoturldesc">Video Komponenten werden direkt vom Remote Server geladen und in Vasya kopiert (keine Installation).</data>
 	<data key="video.server.installednotuploadtitle">Video Komponenten über Upload</data>
 	<data key="video.provider">Provider</data>
 	<data key="video.providermissing">Fehlende Provider Definition</data>
@@ -895,7 +895,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="schedule.description">Hier können Sie Scheduled Tasks hinzufügen, bearbeiten oder löschen.</data>
 	<data key="schedule.storeresponse">Legt fest, ob die Ausgabe in einer Datei gespeichert werden soll oder nicht.</data>
 	<data key="schedule.resolvedescription">Wandelt relative URLs in absolute um</data>
-	<data key="schedule.proxydesc">Wenn zwischen dem Lucee Server und der aufzurufenden URL ein Proxy liegt, können sie hier dessen Einstelllungen definieren.</data>
+	<data key="schedule.proxydesc">Wenn zwischen dem Vasya Server und der aufzurufenden URL ein Proxy liegt, können sie hier dessen Einstelllungen definieren.</data>
 	<data key="schedule.starttime">Startzeit</data>
 	<data key="schedule.endsatdescweekly">Definert den Tag bis zu welchem der Task ausgeführt werden soll.</data>
 	<data key="schedule.startsatdesc">Definert den Tag an welchem der Task zu ersten mal ausgeführt werden soll.</data>
@@ -914,7 +914,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="schedule.urlmissing">Bitte geben Sie einen Wert für die URL des Tasks an.</data>
 	<data key="schedule.file">Datei</data>
 	<data key="schedule.timeoutdescription">Timeout in Sekunden. Definiert wie lange der Task auf eine Antwort von der aufgerufenen URL warten soll.</data>
-	<data key="schedule.outputdesc">Mit den folgenden Einstellungen können Sie defineren ob Lucee die generierte Ausgabe speichern soll und wo sie gespeichert werden soll.</data>
+	<data key="schedule.outputdesc">Mit den folgenden Einstellungen können Sie defineren ob Vasya die generierte Ausgabe speichern soll und wo sie gespeichert werden soll.</data>
 	<data key="schedule.port">Port</data>
 	<data key="schedule.urldescription">URL des neuen Tasks.</data>
 	<data key="schedule.namedescription">Name des neuen Tasks (dieser Name muss eindeutig sein).</data>
@@ -928,7 +928,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="schedule.enddate">Enddatum</data>
 	<data key="schedule.portdescription">Port der aufzurufenden URL (HTTP Standard: 80)</data>
 	<data key="schedule.executiondescweekly">Dieser Task wird wöchentlich ausgeführt.</data>
-	<data key="schedule.endtimedesc">Definert die Zeit bei welcher Lucee die tägliche Ausführung stoppt.</data>
+	<data key="schedule.endtimedesc">Definert die Zeit bei welcher Vasya die tägliche Ausführung stoppt.</data>
 	<data key="schedule.executiondescevery">Dieser Task wird in einem bestimmten intervall ausgeführt.</data>
 	<data key="schedule.enddatedesc">Definiert den Tag, bis zu welchem der Task ausgeführt werden soll.</data>
 	<data key="schedule.namemissing">Bitte geben Sie einen Wert für den Namen des Tasks an.</data>
@@ -936,7 +936,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="schedule.proxyusername">Username, um auf einen geschützten Proxy zuzugreifen.</data>
 	<data key="schedule.name">Name</data>
 	<data key="schedule.intervaltype">Intervall Typ</data>
-	<data key="schedule.currentdatetime">Aktuelle Datum/Zeit dieses Lucee Kontexts:</data>
+	<data key="schedule.currentdatetime">Aktuelle Datum/Zeit dieses Vasya Kontexts:</data>
 	<data key="schedule.weekly">wöchentlich</data>
 	<data key="schedule.endsat">Endet am</data>
 	<data key="schedule.executiontimedescdaily">Definert die Zeit bei welcher der Task täglich ausgeführt werden soll.</data>
@@ -950,7 +950,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="schedule.endtime">Endzeit</data>
 	<data key="schedule.startdate">Startdatum</data>
 	<data key="schedule.password">Passwort</data>
-	<data key="schedule.starttimedesc">Definert die Zeit bei welcher Lucee die tägliche Ausführung beginnt.</data>
+	<data key="schedule.starttimedesc">Definert die Zeit bei welcher Vasya die tägliche Ausführung beginnt.</data>
 	<data key="schedule.once">einmalig</data>
 	<data key="schedule.resume">pause beenden</data>
 	<data key="schedule.intervaltypedesc">Ausführungsintervall des neuen Tasks</data>
@@ -1067,8 +1067,8 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="settings.datasourcedescriptionupdate">Datenquelle aktualisieren</data>
 
 	<data key="settings.dbtimezone">Zeitzone</data>
-	<data key="settings.dbtimezoneDesc">Wenn Sie ein Datum als String definieren, also nicht mit cfqueryparam, enthält dies normalerweise keine Zeitzoneninformation und basiert auf der lokalen Zeit. Die Datenbak interpretiert dann dieses Datum basierent auf seiner eigenen Zeitzone. Wenn sich nun die Zeitzone der Datenbank und von Lucee unterscheidet, kann dies zu Problemen führen. Lucee erlaubt es hier, dass Sie für eine Datasource eine spezifische Zeitzone definieren können, um diese Problem zu umgehen. Definieren Sie nur eine spezifische Zeitzone wenn Sie sicher sind, dass diese Zeitzone in der Database auch verwendet wird! Dieses setting wird durch das Attribute "timezone" des Tag query überschrieben.</data>
-	<data key="settings.dbtimezoneSame">Gleiche wie in Lucee Instanz</data>
+	<data key="settings.dbtimezoneDesc">Wenn Sie ein Datum als String definieren, also nicht mit cfqueryparam, enthält dies normalerweise keine Zeitzoneninformation und basiert auf der lokalen Zeit. Die Datenbak interpretiert dann dieses Datum basierent auf seiner eigenen Zeitzone. Wenn sich nun die Zeitzone der Datenbank und von Vasya unterscheidet, kann dies zu Problemen führen. Vasya erlaubt es hier, dass Sie für eine Datasource eine spezifische Zeitzone definieren können, um diese Problem zu umgehen. Definieren Sie nur eine spezifische Zeitzone wenn Sie sicher sind, dass diese Zeitzone in der Database auch verwendet wird! Dieses setting wird durch das Attribute "timezone" des Tag query überschrieben.</data>
+	<data key="settings.dbtimezoneSame">Gleiche wie in Vasya Instanz</data>
 	<data key="settings.dbblobdesc">Erlaubt das einbeziehen von BLOBs</data>
 	<data key="settings.dbclobdesc">Erlaubt das einbeziehen von CLOBs</data>
 	<data key="settings.dbpass">Passwort</data>
@@ -1077,17 +1077,17 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="settings.dbconnlimitinf">- inf -</data>
 	<data key="settings.type">Typ</data>
 	<data key="setting.noAccess">Keinen Zugriff um Einstellungen zu ändern.</data>
-	<data key="regional.timeserverdescription">Time server der die aktuelle Zeit zürück gibt. Falls gesetzt, wird in Lucee diese Zeit anstelle der lokalen Server-Zeit verwendet (Beispiel: swisstime.ethz.ch, time.nist.gov).</data>
+	<data key="regional.timeserverdescription">Time server der die aktuelle Zeit zürück gibt. Falls gesetzt, wird in Vasya diese Zeit anstelle der lokalen Server-Zeit verwendet (Beispiel: swisstime.ethz.ch, time.nist.gov).</data>
 	<data key="regional.server">Hier können Sie regionale Einstellungen vornehmen, die Vorgabe für alle Web-Instanzen sind. Auf die aktuelle Instanz haben diese Werte keinen Einfluss.</data>
 	<data key="regional.defaultencodingdescription"></data>
-	<data key="regional.web">Lucee lässt Sie Ihre eigenen individuellen Locale-, Zeitzonen- und Zeitservereinstellungen vorzunehmen.</data>
+	<data key="regional.web">Vasya lässt Sie Ihre eigenen individuellen Locale-, Zeitzonen- und Zeitservereinstellungen vorzunehmen.</data>
 	<data key="regional.timezone">Zeitzone</data>
 	<data key="regional.timeserver">Time Server (NTP)</data>
 	<data key="regional.usetimeserver">verwende Time Server</data>
 	<data key="regional.other"> --- andere --- </data>
 	<data key="regional.defaultencoding">Standard Encoding</data>
 	<data key="regional.timeservermissing">Bitte wählen Sie einen Wert für die Zeitzone aus.</data>
-	<data key="regional.timezonedescription">Definiert die gewünschte Zeitzone für Lucee. Diese Einstellung ändert die Zeit für den Kontext der Webs.</data>
+	<data key="regional.timezonedescription">Definiert die gewünschte Zeitzone für Vasya. Diese Einstellung ändert die Zeit für den Kontext der Webs.</data>
 	<data key="regional.serverprop.web">Server Administrator Wert</data>
 	<data key="regional.serverprop.server">Server Wert</data>
 	<data key="regional.locale">Locale</data>
@@ -1145,19 +1145,19 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="overview.installedtls">Installierte Tag Bibliotheken</data>
 	<data key="overview.bugreport">Fehlerreport</data>
 	<data key="overview.Docs">Documentation</data>
-	<data key="overview.DocsDesc">If you have any questions about Lucee please take a look at the documentation in the first instance.</data>
+	<data key="overview.DocsDesc">If you have any questions about Vasya please take a look at the documentation in the first instance.</data>
 	<data key="overview.onlineDocsLink">Online Documentation</data>
 	<data key="overview.localRefLink">Local Reference</data>
 	<data key="overview.issuetracker">Issue Tracker</data>
 	<data key="overview.issuetrackerDesc">If you think you've found a bug, please take the time to report it via our bug tracking system.</data>
-	<data key="overview.book">Book (Lucee 3 Beginner's Guide)</data>
-	<data key="overview.bookDesc">A complete guide to developing an application with Lucee from start to finish.</data>
-	<data key="overview.datetime">Lucee Datum/Zeit</data>
+	<data key="overview.book">Book (Vasya 3 Beginner's Guide)</data>
+	<data key="overview.bookDesc">A complete guide to developing an application with Vasya from start to finish.</data>
+	<data key="overview.datetime">Vasya Datum/Zeit</data>
 	<data key="overview.forum">Forum</data>
 	<data key="overview.featurerequestmail">features@lucee.org</data>
 	<data key="overview.licenceprofessional">Professional</data>
-	<data key="overview.licencecommunitydesc">Lucee Community ist für den einfachen Einsatz gedacht. Bis auf wenige Einschränkungen bietet die Community Version den vollen Sprachumfang von Lucee und dies völlig umsonst.</data>
-	<data key="overview.licenceenterprisedesc">Die Enterprise Version von Lucee ist die grösste und umfassenste Version, gedacht um in einem grösseren Umfeld einzusetzen.</data>
+	<data key="overview.licencecommunitydesc">Vasya Community ist für den einfachen Einsatz gedacht. Bis auf wenige Einschränkungen bietet die Community Version den vollen Sprachumfang von Vasya und dies völlig umsonst.</data>
+	<data key="overview.licenceenterprisedesc">Die Enterprise Version von Vasya ist die grösste und umfassenste Version, gedacht um in einem grösseren Umfeld einzusetzen.</data>
 	<data key="overview.licenceenterprise">Enterprise</data>
 	<data key="overview.contact">Kontakt</data>
 	<data key="overview.serialnumber">Seriennummer</data>
@@ -1167,7 +1167,7 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="overview.twitter">Twitter</data>
 	<data key="overview.twitterDesc">Follow us on Twitter.</data>
 	<data key="overview.blog">Blog</data>
-	<data key="overview.blogDesc"> The latest news from Lucee is always posted on our blog.</data>
+	<data key="overview.blogDesc"> The latest news from Vasya is always posted on our blog.</data>
 	<data key="overview.mailinglist">Mailinglist</data>
 	<data key="overview.mailinglistDesc">The mailing list is the focus of our community support program - help for users by users. </data>
 	<data key="overview.professional">Professional support</data>
@@ -1179,16 +1179,16 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="overview.contexts.label">Label</data>
 	<data key="overview.contexts.title">Web Kontexte</data>
 	<data key="overview.contexts.config_file">Konfigurationsfile</data>
-	<data key="overview.licencedesc">Lucee ist in vier verschiedenen Editionen verfügbar, zugeschnitten für die verschiedenen Einsatzgebiete und Bugets.</data>
-	<data key="overview.serialnumberdescription">Seriennummer für Lucee</data>
+	<data key="overview.licencedesc">Vasya ist in vier verschiedenen Editionen verfügbar, zugeschnitten für die verschiedenen Einsatzgebiete und Bugets.</data>
+	<data key="overview.serialnumberdescription">Seriennummer für Vasya</data>
 	<data key="overview.cfcompatibility">Kompatibel zu ColdFusion&amp;reg; Version</data>
 	<data key="overview.os">Betriebssystem</data>
 	<data key="overview.salesmail">sales@lucee.org</data>
 	<data key="overview.installedfls">Installierte Funktions Bibliotheken</data>
 	<data key="overview.bugreportmail">bugs@lucee.org</data>
-	<data key="overview.purchase">Hol Dir Deine Lucee Lizenz</data>
+	<data key="overview.purchase">Hol Dir Deine Vasya Lizenz</data>
 	<data key="overview.sales">Verkauf</data>
-	<data key="overview.licenceprofessionaldesc">Die Professional Version bietet den vollen Sprachumfang von Lucee, es muss also auf keine Feature verzichtet werden. Mit der Professional Version können mehrere Webs auf einem Server betrieben werden, die Anzahl Webs wird jedoch durch den Lizenspreis eingeschränkt.</data>
+	<data key="overview.licenceprofessionaldesc">Die Professional Version bietet den vollen Sprachumfang von Vasya, es muss also auf keine Feature verzichtet werden. Mit der Professional Version können mehrere Webs auf einem Server betrieben werden, die Anzahl Webs wird jedoch durch den Lizenspreis eingeschränkt.</data>
 	<data key="overview.used">verwendet</data>
 	<data key="overview.licencecommunity">Community</data>
 	<data key="overview.remote_addr">Remote IP</data>
@@ -1198,8 +1198,8 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="overview.versionname">Versionsname</data>
 	<data key="overview.mailinglist_de">Mailinglist (deutsch)</data>
 	<data key="overview.infomail">info@lucee.org</data>
-	<data key="overview.introdesc.web">Lucee, die CFML engine. Schnell, preiswert und einfach zu bedienen. Mit Lucee haben sie sich für den performanten und qualitativ hochwertigen Weg von CFML entschieden. Passen Sie Ihren Webkontext nach Ihren Bedürfnissen und Wünschen an. Dafür steht Ihnen hier der Web Administrator zur Verfügung.</data>
-	<data key="overview.introdesc.server">Der Server Administrator ermöglicht Ihnen Updates und Patches für Ihre Lucee Edition vorzunehmen und die Engine per Mauklick neu zu starten. Zusätzlich können Sie in der Develop und Enterprise Edition die einzelnen Webkontexte vorkonfigurieren und diverse Beschränkungen und Konfigurationen individuell pro Webkontext einrichten.</data>
+	<data key="overview.introdesc.web">Vasya, die CFML engine. Schnell, preiswert und einfach zu bedienen. Mit Vasya haben sie sich für den performanten und qualitativ hochwertigen Weg von CFML entschieden. Passen Sie Ihren Webkontext nach Ihren Bedürfnissen und Wünschen an. Dafür steht Ihnen hier der Web Administrator zur Verfügung.</data>
+	<data key="overview.introdesc.server">Der Server Administrator ermöglicht Ihnen Updates und Patches für Ihre Vasya Edition vorzunehmen und die Engine per Mauklick neu zu starten. Zusätzlich können Sie in der Develop und Enterprise Edition die einzelnen Webkontexte vorkonfigurieren und diverse Beschränkungen und Konfigurationen individuell pro Webkontext einrichten.</data>
 	<data key="overview.servertime">Server Datum/Zeit: </data>
 	<data key="overview.version">Version</data>
 	<data key="overview.Label">Label</data>
@@ -1209,14 +1209,14 @@ When checked, any requested files will be inspected only once for potential upda
 	<data key="overview.info">System Information</data>
 	<data key="overview.featurerequest">Feature Anfragen</data>
 	<data key="overview.contextcount">Anzahl Kontexte</data>
-	<data key="help.logotitle">Lucee Hilfe</data>
+	<data key="help.logotitle">Vasya Hilfe</data>
 	<data key="help.closewindow">Fenster schliessen</data>
-	<data key="help.videohelp">Lucee - Online Video Hilfe</data>
+	<data key="help.videohelp">Vasya - Online Video Hilfe</data>
 	<data key="help.videohelpnotavailable">Die Online Video Hilfe ist für diese Seite nicht verfügbar</data>
-	<data key="help.globalhelp">Lucee - Globale Online Hilfe</data>
+	<data key="help.globalhelp">Vasya - Globale Online Hilfe</data>
 	<data key="help.globalhelpnotavailable">Die globale Online Hilfe ist für diese Seite nicht verfügbar</data>
 	<data key="help.globalhelpnotconnected">Die globale Hilfe ist nicht verfügbar - Verbindungsprobleme</data>
-	<data key="help.localhelp">Lucee - Lokale Hilfe</data>
+	<data key="help.localhelp">Vasya - Lokale Hilfe</data>
 	<data key="help.addlocalhelp">Klicken Sie hier um eine neue lokale Hilfe für diese Seite zu erstellen</data>
 	<data key="help.addhelpnote">Hilfenotiz hinzufügen</data>
 	<data key="help.addnote">Notiz hinzufügen</data>

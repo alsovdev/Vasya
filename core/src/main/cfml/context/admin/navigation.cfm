@@ -102,7 +102,7 @@
 				padding:2% 1% 2% 2% !important;
 			}
 			.tt-suggestion.tt-selectable:hover{
-				background-color: #request.adminType=="web"?'##39c':'##BF4F36'# !important;
+				background-color: #request.adminType=="web"?'##39c':'##65a052'# !important;
 				color: white;
 			}
 			/*show more Results*/
@@ -112,8 +112,8 @@
 				padding: 2% 1% 2% 1% ;
 			}
 			.navSearch{
-				border-color:  #request.adminType=="web"?'##39c':'##BF4F36'# !important;
-				background-color: #request.adminType=="web"?'##39c':'##BF4F36'# !important;
+				border-color:  #request.adminType=="web"?'##39c':'##65a052'# !important;
+				background-color: #request.adminType=="web"?'##39c':'##65a052'# !important;
 				width: 89% !important;
 				padding: 1px 1px 1px 1px;
 			}

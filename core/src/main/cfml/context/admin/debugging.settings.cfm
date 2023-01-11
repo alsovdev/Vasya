@@ -85,8 +85,8 @@ Redirtect to entry --->
 <cfset qryServer=queryNew("id,label,iprange,type,custom,readonly,driver")>
 
 
-<cfset stText.debug.settings.generalYes="Lucee logs debug information you have checked below.">
-<cfset stText.debug.settings.generalNo="Lucee does not log any debug information at all.">
+<cfset stText.debug.settings.generalYes="Vasya logs debug information you have checked below.">
+<cfset stText.debug.settings.generalNo="Vasya does not log any debug information at all.">
 
 
 <cfhtmlbody>

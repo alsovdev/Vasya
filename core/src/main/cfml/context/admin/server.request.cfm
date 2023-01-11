@@ -574,7 +574,7 @@ Error Output --->
 
 <cfset stText.application.appPathEnvVar="This can also be defined int the enviroment variables as follows">
 <cfset stText.application.appPathTimeout="Timeout for the Application Path Cache">
-<cfset stText.application.appPathTimeoutDesc="If set to greater than 0 Lucee will cache the Path to the Application.[cfc|cfm] file to use for that time. So Lucee does not serach the Application.cfc with every request. If set to 0 the cache is disabled. ">
+<cfset stText.application.appPathTimeoutDesc="If set to greater than 0 Vasya will cache the Path to the Application.[cfc|cfm] file to use for that time. So Vasya does not serach the Application.cfc with every request. If set to 0 the cache is disabled. ">
 
 
 				<tr>

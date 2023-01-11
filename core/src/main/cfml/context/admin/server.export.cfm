@@ -172,7 +172,7 @@ component {
 	this.compression = #outputSetting.AllowCompression#;
 	this.suppressRemoteComponentContent = #outputSetting.suppressContent#;
 	
-	// If set to false Lucee ignores type definitions with function arguments and return values
+	// If set to false Vasya ignores type definitions with function arguments and return values
 	this.typeChecking = #PerformanceSettings.typeChecking#;
 	
 	

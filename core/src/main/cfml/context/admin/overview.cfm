@@ -1,7 +1,7 @@
 <!---
 Defaults --->
 
-<cfset current.label = "Lucee " & server.lucee.version & " - " & current.label>
+<cfset current.label = "Vasya " & server.lucee.version & " by alsov " & " - " & current.label >
 <cfset error.message="">
 <cfset error.detail="">
 <cfparam name="form.mainAction" default="none">
@@ -85,7 +85,7 @@ Error Output --->
     <script src="../res/js/echarts-all.js.cfm" type="text/javascript"></script>
     <script type="text/javascript">
     	var chartTimer;
-    	labels={'heap':"Heap",'nonheap':"Non-Heap",'cpuSystem':"Whole System",'cpuProcess':"Lucee Process"};
+    	labels={'heap':"Heap",'nonheap':"Non-Heap",'cpuSystem':"Whole System",'cpuProcess':"Vasya Process"};
 		function requestData(){
 			jQuery.ajax({
 				type: "POST",
@@ -144,7 +144,7 @@ Error Output --->
 					}
 				},
 
-				color: ["<cfoutput>#request.adminType EQ "server" ? '##3399CC': '##BF4F36'#</cfoutput>"],
+				color: ["<cfoutput>#request.adminType EQ "server" ? '##3399CC': '##65a052'#</cfoutput>"],
 				grid : {
 					width: '82%',
 					height: '65%',
@@ -188,10 +188,10 @@ Error Output --->
 				}
 			},
 			legend: {
-				data:['System CPU', 'Lucee CPU']
+				data:['System CPU', 'Vasya CPU']
 			},
 
-			color: ["<cfoutput>#request.adminType EQ "server" ? '##3399CC': '##BF4F36'#</cfoutput>", "<cfoutput>#request.adminType EQ "server" ? '##BF4F36': '##3399CC'#</cfoutput>"],
+			color: ["<cfoutput>#request.adminType EQ "server" ? '##3399CC': '##65a052'#</cfoutput>", "<cfoutput>#request.adminType EQ "server" ? '##65a052': '##3399CC'#</cfoutput>"],
 			grid : {
 				width: '82%',
 				height: '65%',
@@ -218,7 +218,7 @@ Error Output --->
 				'data': [0]
 				},
 				{
-				'name': 'Lucee CPU',
+				'name': 'Vasya CPU',
 				'type':'line',
 				smooth:true,
 				itemStyle: {normal: {areaStyle: {type: 'default'}}},
@@ -484,7 +484,7 @@ Error Output --->
 
 								<tr>
 									<th scope="row">#stText.Overview.Version#</th>
-									<td>Lucee #server.lucee.version#</td>
+									<td>Vasya #server.lucee.version#</td>
 								</tr>
 								<tr>
 									<th scope="row">#stText.Overview.VersionName#</th>

@@ -38,7 +38,7 @@
 			}
 			div.tabs a {
 				float:left;
-				background-color: #bf4f36;
+				background-color: #65a052;
 				color : white;	
 				border-bottom-color:#fff;
 				font-weight:bold;

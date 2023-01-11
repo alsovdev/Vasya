@@ -535,7 +535,7 @@ function ldConfigureCharts() {
 	
 	var bg="#FFF";
 	var blue="#3399CC";
-	var red="#BF4F36";
+	var red="#65a052";
 
 	var yAxis = [{
 			'type':'value',

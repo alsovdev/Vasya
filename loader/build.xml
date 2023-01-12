@@ -43,4 +43,10 @@
       <delete dir="${outputDir}"/>
   </target>
 
+
+  <target name="vasya" depends="setEnv,buildVasya" description="build Vasya">
+
+      <delete dir="${outputDir}"/>
+  </target>
+
 </project>

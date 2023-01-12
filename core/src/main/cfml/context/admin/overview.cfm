@@ -1,7 +1,7 @@
 <!---
 Defaults --->
 
-<cfset current.label = "Vasya " & server.lucee.version & " by alsov " & " - " & current.label >
+<cfset current.label = "Vasya " & server.lucee.version & " (alsov fork of Lucee)  " & " - " & current.label >
 <cfset error.message="">
 <cfset error.detail="">
 <cfparam name="form.mainAction" default="none">

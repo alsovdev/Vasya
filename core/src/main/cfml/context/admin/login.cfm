@@ -16,14 +16,14 @@
 
 
 <cfparam name="form.rememberMe" default="s" />
-<cfparam name="cookie.lucee_admin_lang" default="en">
+<cfparam name="cookie.lucee_admin_lang" default="ru">
 <cfset session.lucee_admin_lang = cookie.lucee_admin_lang>
 <cfif isDefined('url.action')>
 	<cfset self=request.self&"?action="&url.action>
 <cfelse>
 	<cfset self=request.self>
 </cfif>
-<cfparam name="languages" default="#{en:'English',de:'Deutsch'}#">
+<cfparam name="languages" default="#{en:'English',de:'Deutsch',ru:'Russian'}#">
 
 <cfoutput>
 	<script type="text/javascript">

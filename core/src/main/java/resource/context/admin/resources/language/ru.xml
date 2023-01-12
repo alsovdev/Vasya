@@ -209,7 +209,7 @@
   <data key="security.javaaccess">Прямой доступ к Java</data>
   <data key="security.cfx">CFX</data>
   <data key="menu.info.label">Информация</data>
-  <data key="menu.info.bundle">Связка (баночка)</data>
+  <data key="menu.info.bundle">Bundle (jar)</data>
   <data key="menu.overview.label">Обзор</data>
   <data key="menu.overview.overview">Обзор</data>
   <data key="menu.server.label">Настройки</data>

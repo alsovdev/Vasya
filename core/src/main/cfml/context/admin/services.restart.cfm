@@ -58,7 +58,7 @@ Error Output --->
 						$.get("?", function(response) {
 							window.location=('?action=overview');
 						});
-					}, 1000); // give Vasya enough time to startup, otherwise, the admin login may show without css/js
+					}, 1000); // give Green enough time to startup, otherwise, the admin login may show without css/js
 				} else {
 					$('##updateInfoDesc').addClass("error").attr("style", null).html(response);
 					//window.location=('?action=#url.action#'); 

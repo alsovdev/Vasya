@@ -3,7 +3,7 @@
 <cfset error.detail="">
 
 <cfset stText.setting.typeChecking="UDF Type Checking">
-<cfset stText.setting.typeCheckingDesc="If disabled Vasya ignores type definitions with function arguments and return values">
+<cfset stText.setting.typeCheckingDesc="If disabled Green ignores type definitions with function arguments and return values">
 <cfset stText.setting.developMode="If enabled the Admininstrator no longer cache data.">
 <cfset stText.setting.ctCacheDesc="Press the button above to clear the custom tag path cache.">
 

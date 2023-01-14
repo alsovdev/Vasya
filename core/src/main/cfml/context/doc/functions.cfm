@@ -96,13 +96,13 @@
 				<div class="tile">
 					<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 						<li><a href="index.cfm">Home</a></li>
-						<li><a href="functions.cfm">Vasya functions</a></li>
+						<li><a href="functions.cfm">Green functions</a></li>
 						<li class="active">#data.name#</li>
 					</ul>
 				</div>
 			</div>
 		<cfelse>
-			<h2 style="text-align: center;">Vasya Functions</h2>
+			<h2 style="text-align: center;">Green Functions</h2>
 		</cfif>
 
 		<h2><em>#data.name#()</em></h2>
@@ -197,12 +197,12 @@
 			<div class="tile">
 				<ul class="breadcrumb margin-no-top margin-right margin-no-bottom margin-left">
 					<li><a href="index.cfm">Home</a></li>
-					<li class="active">Vasya functions</li>
+					<li class="active">Green functions</li>
 				</ul>
 			</div>
 		</div>
 
-		<p>Functions are at the core of Vasya Server's templating language. You can check out every function available using the A-Z index below.</p>
+		<p>Functions are at the core of Green Server's templating language. You can check out every function available using the A-Z index below.</p>
 
 		<cfset qryAllItems = queryNew("Functions")>
 		<cfloop array="#arrAllItems#" index="ai">
@@ -241,7 +241,7 @@
 </cfsavecontent>
 
 <!--- <cfif !structKeyExists(url, "isAjaxRequest")> --->
-<cfmodule template="doc_layout.cfm" title="Vasya Function Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
+<cfmodule template="doc_layout.cfm" title="Green Function Reference" prevLinkItem="#prevLinkItem#" nextLinkItem="#nextLinkItem#">
 	<cfoutput>#a#</cfoutput>
 </cfmodule><!--- doc_layout !--->
 <!--- <cfelse>

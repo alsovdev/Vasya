@@ -140,13 +140,13 @@ Error Output --->
 <table class="tbl" width="600">
 <form action="#request.self#?action=#url.action#" method="post">
 <tr>
-	<td colspan="2">Definieren Sie hier, wie der Zugriff der einzelnen Webs auf Vasya prinzipiell geregelt ist.</td>
+	<td colspan="2">Definieren Sie hier, wie der Zugriff der einzelnen Webs auf Green prinzipiell geregelt ist.</td>
 </tr>
 <tr>
 	<td colspan="2">
 	<select name="web_access">
-	<option value="yes" <cfif access.web_access>selected</cfif>>Alle Webs duerfen Vasya verwenden</option>
-	<option value="no" <cfif not access.web_access>selected</cfif>>Nur folgende Webs duerfen Vasya verwenden</option>
+	<option value="yes" <cfif access.web_access>selected</cfif>>Alle Webs duerfen Green verwenden</option>
+	<option value="no" <cfif not access.web_access>selected</cfif>>Nur folgende Webs duerfen Green verwenden</option>
 </select>
 <input type="submit" class="button submit" name="subAction" value="#stText.Buttons.Update#">
 	</td>
@@ -159,14 +159,14 @@ Error Output --->
 	
 <cfif access.web_access>
 <h2>Einzelne Webs freigeben</h2>
-Alle Webs k￶oennen Vasya verwenden.
+Alle Webs k￶oennen Green verwenden.
 <cfelse>
 <cfoutput><form action="#cgi.script_name#" method="post"></cfoutput>
 <table class="tbl">
 <tr>
 	<td colspan="2">
 	<h2>Einzelne Webs freigeben</h2>
-	Nur die Webs, welche hier eine explizite Freigabe haben, k￶oennen Vasya auch verwenden.
+	Nur die Webs, welche hier eine explizite Freigabe haben, k￶oennen Green auch verwenden.
 	</td>
 </tr>
 <tr>

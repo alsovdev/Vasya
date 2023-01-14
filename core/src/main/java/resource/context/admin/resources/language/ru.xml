@@ -57,7 +57,7 @@
   <data key="services.update.downup">Обновление/понижение</data>
   <data key="services.update.downupBtn">Выполнять</data>
   <data key="services.update.noUpdateDesc">В настоящее время для вашей версии нет доступных {type}.</data>
-  <!-- <data key="services.update.titleDesc">Upgrade (or Downgrade) your Vasya version ({version}) to any version * you like.</data> -->
+  <!-- <data key="services.update.titleDesc">Upgrade (or Downgrade) your Green version ({version}) to any version * you like.</data> -->
   <data key="services.update.titleDesc">Обновите или понизьте версию, выбрав из раскрывающегося списка ниже.</data>
   <data key="services.update.titleDesc2">Вы не можете перейти на более раннюю версию, чем {min-version}, поскольку эта версия включена в ваш файл lucee.jar.  Чтобы перейти ниже этой версии, вам нужно заменить lucee.jar на более старую версию.</data>
   <data key="services.update.downgradeVersion">Чтобы понизить версию ниже {minVersion}, вам необходимо заменить файл lucee.jar более старой версией, которую вы можете скачать {url}.  Это связано с тем, что lucee.jars всегда включает в себя версию и всегда будет использовать по крайней мере эту версию.</data>
@@ -91,7 +91,7 @@
   <data key="mappings.archivetitle">создать архив</data>
   <data key="mappings.compilestoponerrordesc">Устанавливает, должен ли процесс компиляции прерываться при ошибках</data>
   <data key="mappings.editdesc">Здесь вы можете отредактировать определенный маппинг или создать архив Васи из существующего.</data>
-  <data key="mappings.archivedesc">Создайте архив Vasya (.lar) из существующего сопоставления</data>
+  <data key="mappings.archivedesc">Создайте архив Green (.lar) из существующего сопоставления</data>
   <data key="mappings.physicalhead">Ресурс</data>
   <data key="mappings.archivesecure">Защищено</data>
   <data key="mappings.compiledesc">Скомпилируйте все файлы cfm и cfc внутри отображения</data>
@@ -132,9 +132,9 @@
   <!-- resources.customtags.old.cfm -->
   <data key="CustomTags.name">Имя</data>
   <data key="CustomTags.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Васи (.ra,.ras) на основе этого сопоставления.</data>
-  <data key="CustomTags.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Vasya Archive на основе этого сопоставления.</data>
+  <data key="CustomTags.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Green Archive на основе этого сопоставления.</data>
   <data key="CustomTags.PhysicalDesc">Путь к каталогу, в котором расположены пользовательские теги.</data>
-  <data key="CustomTags.archiveDesc">Путь к файлу с пользовательским тегом Vasya Archive (.ra или .ras).</data>
+  <data key="CustomTags.archiveDesc">Путь к файлу с пользовательским тегом Green Archive (.ra или .ras).</data>
   <data key="CustomTags.PrimaryDesc">Определяет, где Вася в первую очередь ищет запрошенные пользовательские теги</data>
   <data key="CustomTags.trustedDesc">Когда Вася проверяет наличие изменений в исходном файле по уже загруженным кастомным тегам</data>
   <data key="security.customtagdescription">Настройки пользовательских тегов можно изменить в «веб-администраторе».</data>
@@ -166,7 +166,7 @@
   <data key="security.cfmlenvironmentdescription">Настройки, влияющие на то, как код Васи взаимодействует с хост-средой</data>
   <data key="security.functions">Tags &amp;amp;amp;amp;amp; Functions</data>
   <data key="security.functionsdescription">Теги и функции, которые могут представлять потенциальный риск для хост-системы</data>
-  <data key="security.filedescription">Defines how Vasya can interact with the local filesystem in a web context.&amp;amp;amp;lt;br/&amp;amp;amp;gt;- none: allows no access to the filesystem at all&amp;amp;amp;lt;br/&amp;amp;amp;gt;- local: allows only access to the filesystem within the webroot&amp;amp;amp;lt;br/&amp;amp;amp;gt;- all: allows full file access on the hosts filesystem&amp;amp;amp;lt;br/&amp;amp;amp;gt;</data>
+  <data key="security.filedescription">Defines how Green can interact with the local filesystem in a web context.&amp;amp;amp;lt;br/&amp;amp;amp;gt;- none: allows no access to the filesystem at all&amp;amp;amp;lt;br/&amp;amp;amp;gt;- local: allows only access to the filesystem within the webroot&amp;amp;amp;lt;br/&amp;amp;amp;gt;- all: allows full file access on the hosts filesystem&amp;amp;amp;lt;br/&amp;amp;amp;gt;</data>
   <data key="security.cfmlenvironment">CFML-среда</data>
   <data key="security.file">Доступ к файлам</data>
   <data key="security.settingsdescription">Настройки (региональные, компонент и область применения) можно изменить в «веб-администраторе».</data>
@@ -199,7 +199,7 @@
   <data key="security.tabgeneral">Общий</data>
   <data key="security.scheduledtask">Запланированное задание</data>
   <data key="security.datasource">Источник данных</data>
-  <data key="security.tagimportdescription">Этот тег можно использовать для импорта библиотек тегов JSP и Vasya.</data>
+  <data key="security.tagimportdescription">Этот тег можно использовать для импорта библиотек тегов JSP и Green.</data>
   <data key="security.webadministrator">Веб-администратор</data>
   <data key="security.speclisttext">Параметры безопасности для определенного веб-контекста.  Вы можете редактировать или удалять эти контексты.</data>
   <data key="security.searchdescription">Настройки поиска можно изменить в «веб-администраторе».</data>
@@ -343,7 +343,7 @@
   <data key="ext.configHasNoInfoTag">XML-файл конфигурации в расширении не содержит необходимого раздела [info] в теге [config].</data>
   <data key="ext.noUpdateDesc">В настоящее время для вашей версии нет доступных расширений {type}.</data>
   <data key="ext.detail.noUpdateDesc">В настоящее время для этого расширения нет доступных версий {type}.</data>
-  <data key="ext.reviewdocumentation">Ознакомьтесь с документацией по созданию расширений Vasya.</data>
+  <data key="ext.reviewdocumentation">Ознакомьтесь с документацией по созданию расширений Green.</data>
   <data key="ext.requiredKeyMissing">Обязательное поле [config.info.$key$] отсутствует в XML-файле конфигурации расширения.</data>
   <data key="ext.requiredKeyEmpty">Обязательное поле [config.info.$key$] не содержит значения в XML-файле конфигурации расширения.</data>
   <data key="ext.typeFieldInvalid">Поле [config.info.type] в XML-файле конфигурации содержит недопустимое значение.  Поддерживаются только [веб, сервер, все].</data>
@@ -353,8 +353,8 @@
   <data key="ext.backtoprevpage">Вернуться к предыдущей странице</data>
   <!-- ext.applications.cfm -->
   <data key="ext.installedInServer">Расширение, установленное в Администраторе сервера</data>
-  <data key="ext.minVasyaVersion">Вася Версия</data>
-  <data key="ext.minVasyaVersionDesc">Минимальная версия Васи, необходимая для этого расширения.</data>
+  <data key="ext.minGreenVersion">Вася Версия</data>
+  <data key="ext.minGreenVersionDesc">Минимальная версия Васи, необходимая для этого расширения.</data>
   <data key="ext.toSmallVersion">Вам нужна как минимум Вася {версия} для установки этого расширения</data>
   <data key="ext.availableVersions">Доступные версии</data>
   <data key="ext.updateTo">обновить до</data>
@@ -390,8 +390,8 @@
   <data key="remote.passwordmissing">Пароль администратора для удаленного клиента отсутствует</data>
   <data key="remote.securitykey">Ключ безопасности</data>
   <data key="remote.serverusernamedesc">Аутентификация HTTP-доступа</data>
-  <data key="remote.adminpassworddesc.web">Пароль для доступа к удаленному Vasya Web Administrator</data>
-  <data key="remote.adminpassworddesc.server">Пароль для доступа к удаленному администратору Vasya Server</data>
+  <data key="remote.adminpassworddesc.web">Пароль для доступа к удаленному Green Web Administrator</data>
+  <data key="remote.adminpassworddesc.server">Пароль для доступа к удаленному администратору Green Server</data>
   <data key="remote.urlpath">Путь</data>
   <data key="remote.urlmissing">Отсутствует URL-адрес удаленного клиента.</data>
   <data key="remote.urlserverdesc">Удаленный клиентский сервер (например, https://lucee.org)</data>
@@ -618,10 +618,10 @@
   <data key="components.basecomponentdescription">Каждый компонент, который явно не расширяет другой компонент (атрибут «extends»), по умолчанию расширяет этот компонент.  Это означает, что каждый компонент каким-то образом расширяет этот базовый компонент.  Каждое изменение в этом компоненте требует перезапуска от Васи.</data>
   <!-- resources.component.cfm -->
   <data key="Components.name">Имя</data>
-  <data key="Components.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Vasya (.lar) на основе этого сопоставления.</data>
-  <data key="Components.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Vasya Archive на основе этого сопоставления.</data>
+  <data key="Components.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Green (.lar) на основе этого сопоставления.</data>
+  <data key="Components.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Green Archive на основе этого сопоставления.</data>
   <data key="Components.PhysicalDesc">Путь к каталогу, в котором находятся компоненты, этот путь не должен включать пакет.</data>
-  <data key="Components.archiveDesc">Путь к файлу компонентов Vasya Archive (.lar).</data>
+  <data key="Components.archiveDesc">Путь к файлу компонентов Green Archive (.lar).</data>
   <data key="Components.PrimaryDesc">Определяет, где Вася в первую очередь ищет запрошенный компонент</data>
   <data key="Components.trustedDesc">Когда Вася проверяет наличие изменений в исходном файле для уже загруженного компонента</data>
   <data key="login.passwordmissing">Пожалуйста, введите значение для пароля поля</data>
@@ -686,7 +686,7 @@
   <data key="searchlng.turkish">турецкий</data>
   <data key="debug.logmemoryusage">Журнал использования памяти</data>
   <data key="debug.memoryloggerdescripiton">Файл, в котором будет храниться использование памяти</data>
-  <data key="debug.enabledescription">Если установлено значение "да", Vasya регистрирует отладочную информацию, которую вы выбрали ниже.
+  <data key="debug.enabledescription">Если установлено значение "да", Green регистрирует отладочную информацию, которую вы выбрали ниже.
 вы можете увидеть результат журнала в конце каждого запроса, если определен шаблон отладки или в разделе Debug/Logs у этого администратора.</data>
   <data key="debug.debugtemplatemissing">Введите значение для шаблона отладки</data>
   <data key="debug.debugtemplatedescription">Этот шаблон используется для форматирования вывода отладки.</data>
@@ -859,13 +859,13 @@
   <data key="Scopes.cgiReadOnlyFalseDesc">Область CGI можно изменить, как и другие области.</data>
   <data key="compiler.nullSupport">Нулевая поддержка</data>
   <data key="compiler.nullSupportOnlyServer">Эта настройка возможна только в Администраторе Вася Сервера.</data>
-  <data key="compiler.nullSupportDesc">Definiert wie Vasya null unterstützt.</data>
+  <data key="compiler.nullSupportDesc">Definiert wie Green null unterstützt.</data>
   <data key="compiler.nullSupportFull">Полная поддержка</data>
   <data key="compiler.nullSupportFullDesc">У Васи есть полная поддержка null, включая литерал "null".  Подробнее читайте в Вики Васи.</data>
   <data key="compiler.nullSupportPartial">Частичная поддержка (по умолчанию CFML)</data>
   <data key="compiler.nullSupportPartialDesc">У Васи только частичная нулевая поддержка.</data>
   <data key="setting.regex">Вася настройки регулярных выражений (регулярных выражений).</data>
-  <data key="setting.compiler">Настройки компилятора Vasya, это влияет на то, как компилятор Vasya анализирует исходный код.  Изменение этих настроек сбрасывает все существующие файлы классов и запускает перекомпиляцию.</data>
+  <data key="setting.compiler">Настройки компилятора Green, это влияет на то, как компилятор Green анализирует исходный код.  Изменение этих настроек сбрасывает все существующие файлы классов и запускает перекомпиляцию.</data>
   <data key="setting.dotNotation">Ключевой случай</data>
   <!-- server.compiler.cfm -->
   <data key="setting.handleUnquotedAttrValueAsString">Значения атрибутов тега</data>
@@ -880,7 +880,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="setting.dotNotationUpperCase">Преобразование в верхний регистр (CFML по умолчанию)</data>
   <data key="setting.dotNotationOriginalCase">Сохранить дело</data>
   <data key="setting.suppressWSBeforeArg">Подавить пробел перед cfargument</data>
-  <data key="setting.suppressWSBeforeArgDesc">Если задано, Vasya подавляет пробел, определенный между начальным тегом "cffunction" и последним тегом "cfargument".
+  <data key="setting.suppressWSBeforeArgDesc">Если задано, Green подавляет пробел, определенный между начальным тегом "cffunction" и последним тегом "cfargument".
 
 	Этот параметр игнорируется, если между этими тегами есть другой вывод в виде пробела.</data>
   <data key="setting.templatecache">Кэш пула страниц</data>
@@ -983,7 +983,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="buttons.updateTrial">Обновить как пробную версию</data>
   <data key="buttons.updateFull">Обновить как полную версию</data>
   <data key="video.web.installed">Видеокомпоненты установлены в вашей системе.</data>
-  <data key="video.web.installedbut">Видеокомпоненты установлены, но не могут нормально работать. Просто переключитесь на Vasya Server Administrator, чтобы починить:</data>
+  <data key="video.web.installedbut">Видеокомпоненты установлены, но не могут нормально работать. Просто переключитесь на Green Server Administrator, чтобы починить:</data>
   <data key="video.upload">Загрузить</data>
   <data key="video.uploadmissing">Отсутствует определение загрузки</data>
   <data key="video.server.installednoturltitle">Загрузка видеокомпонентов по URL-адресу</data>
@@ -1009,7 +1009,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="schedule.description">Здесь вы можете добавлять, изменять, запускать и удалять запланированные задачи</data>
   <data key="schedule.storeresponse">Устанавливает, будет ли ответ сервера храниться в файле или нет</data>
   <data key="schedule.resolvedescription">Преобразование относительных URL-адресов в абсолютные</data>
-  <data key="schedule.proxydesc">Когда между сервером Vasya и вызываемым URL-адресом есть прокси-сервер, вы можете определить здесь настройку прокси-серверов для доступа к URL-адресу.</data>
+  <data key="schedule.proxydesc">Когда между сервером Green и вызываемым URL-адресом есть прокси-сервер, вы можете определить здесь настройку прокси-серверов для доступа к URL-адресу.</data>
   <data key="schedule.starttime">Время начала</data>
   <data key="schedule.endsatdescweekly">Определяет дату, когда задача должна быть выполнена в последний раз.</data>
   <data key="schedule.startsatdesc">Определяет дату, когда задача должна быть выполнена в первый раз.</data>
@@ -1147,7 +1147,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.dbdriverselectorchoose">Выберите драйвер базы данных</data>
   <data key="settings.dbtimezone">Часовой пояс</data>
   <data key="settings.dbtimezoneDesc">Когда вы определяете дату в виде строки (не с помощью cfqueryparam) внутри cfquery, обычно в ней нет информации о часовом поясе, а строка даты основана на часовом поясе локали. Поэтому база данных будет интерпретировать эту строку даты на основе своего собственного часового пояса.
-Если часовой пояс вашего экземпляра Vasya и вашей базы данных отличается, это может привести к проблемам. Из-за этого Vasya теперь позволяет вам определять часовой пояс для конкретного определения источника данных. Имейте в виду, что вам следует определять определенный часовой пояс только в том случае, если вы на 100% уверены, что этот часовой пояс используется на сервере базы данных и он отличается от часового пояса экземпляра Vasya. Этот параметр может быть перезаписан атрибутом cfquery "часовой пояс".</data>
+Если часовой пояс вашего экземпляра Green и вашей базы данных отличается, это может привести к проблемам. Из-за этого Green теперь позволяет вам определять часовой пояс для конкретного определения источника данных. Имейте в виду, что вам следует определять определенный часовой пояс только в том случае, если вы на 100% уверены, что этот часовой пояс используется на сервере базы данных и он отличается от часового пояса экземпляра Green. Этот параметр может быть перезаписан атрибутом cfquery "часовой пояс".</data>
   <data key="settings.dbtimezoneSame">То же, что и экземпляр Васи</data>
   <data key="settings.dbblobdesc">Включить извлечение больших двоичных объектов (&amp;lt;abbr title="binary large object"&amp;gt;BLOB&amp;lt;/abbr&amp;gt;)</data>
   <data key="settings.dbclobdesc">Включить поиск длинного текста (&amp;lt;abbr title="character large object"&amp;gt;CLOB&amp;lt;/abbr&amp;gt;)</data>
@@ -1227,10 +1227,10 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.bookDesc">Полное руководство по разработке приложения с Васей от начала до конца.</data>
   <data key="overview.datetime">Вася дата/время</data>
   <data key="overview.forum">Форум</data>
-  <data key="overview.featurerequestmail">features@Vasya.ch</data>
+  <data key="overview.featurerequestmail">features@Green.ch</data>
   <data key="overview.licenceprofessional">Профессиональный</data>
-  <data key="overview.licencecommunitydesc">Сообщество Vasya предназначено для соискателей с небольшим бюджетом.  За исключением нескольких ограничений, версия для сообщества предлагает весь языковой диапазон Васи.</data>
-  <data key="overview.licenceenterprisedesc">Корпоративная версия Vasya — самая большая и полная версия, предназначенная для использования в более широком контексте.</data>
+  <data key="overview.licencecommunitydesc">Сообщество Green предназначено для соискателей с небольшим бюджетом.  За исключением нескольких ограничений, версия для сообщества предлагает весь языковой диапазон Васи.</data>
+  <data key="overview.licenceenterprisedesc">Корпоративная версия Green — самая большая и полная версия, предназначенная для использования в более широком контексте.</data>
   <data key="overview.licenceenterprise">Предприятие</data>
   <data key="overview.contact">Контакт</data>
   <data key="overview.serialnumber">Серийный номер</data>
@@ -1264,7 +1264,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.salesmail">sales@lucee.ch</data>
   <data key="overview.installedfls">Установленные библиотеки функций</data>
   <data key="overview.bugreportmail">bugs@lucee.ch</data>
-  <data key="overview.purchase">Приобретите лицензию Vasya</data>
+  <data key="overview.purchase">Приобретите лицензию Green</data>
   <data key="overview.sales">Продажи</data>
   <data key="overview.licenceprofessionaldesc">Профессиональная версия предлагает полный языковой диапазон Васи, никаких ограничений на использование какой-либо функции ожидать не приходится.  Профессиональная версия позволяет использовать несколько веб-контекстов на одном сервере, однако количество веб-контекстов ограничено стоимостью лицензии.</data>
   <data key="overview.used">В настоящее время используется</data>
@@ -1439,7 +1439,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.orm.cfclocation">Постоянное расположение компонентов</data>
   <data key="settings.orm.cfclocationDesc">Указывает каталог, который следует использовать для поиска постоянных CFC для создания сопоставления.  Если задан cfclocation, Вася просматривает только указанные в нем пути.  Если он не установлен, Вася просматривает каталог приложения, его подкаталоги и сопоставленные с ним каталоги для поиска постоянных Компонентов.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.cfclocation='...']</data>
   <data key="settings.orm.dbcreate">Поведение при создании таблиц</data>
-  <data key="settings.orm.dbcreateDesc">Vasya ORM может автоматически создавать таблицы для вашего приложения в базе данных при инициализации ORM для приложения.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.dbcreate='none']</data>
+  <data key="settings.orm.dbcreateDesc">Green ORM может автоматически создавать таблицы для вашего приложения в базе данных при инициализации ORM для приложения.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.dbcreate='none']</data>
   <data key="settings.orm.dbcreateNone">Установка этого значения ничего не меняет в схеме базы данных.</data>
   <data key="settings.orm.dbcreateUpdate">Установка этого значения создает таблицу, если она не существует, или обновляет таблицу, если она существует.</data>
   <data key="settings.orm.dbcreateDropcreate">Установка этого значения удаляет таблицу, если она существует, а затем создает ее.</data>
@@ -1473,7 +1473,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="services.update.location_dev">Разрабатываемые выпуски (Bleeding Edge)</data>
   <data key="services.update.location_devDesc">Этот поставщик обновлений (dev.lucee.org) возвращает версии «Bleeding Edge».  Обычно на этих версиях проводилось лишь небольшое количество испытаний.  Этот источник НЕ следует использовать для производственных сред.</data>
   <data key="services.update.location_custom">Обычай</data>
-  <data key="services.update.location_customDesc">Вася позволяет вам определить своего собственного поставщика обновлений, просто указав URL-адрес остальной службы, предоставляющей необходимые данные.  Пожалуйста, обратитесь к документации Vasya на {url} для получения более подробной информации о том, как определить пользовательский поставщик обновлений.</data>
+  <data key="services.update.location_customDesc">Вася позволяет вам определить своего собственного поставщика обновлений, просто указав URL-адрес остальной службы, предоставляющей необходимые данные.  Пожалуйста, обратитесь к документации Green на {url} для получения более подробной информации о том, как определить пользовательский поставщик обновлений.</data>
   <!-- services.update.functions.cfm -->
   <data key="services.update.serverNotReachable">Не удалось связаться с сервером {url}.</data>
   <data key="services.update.serverFailed">серверу {url} не удалось вернуть правильный ответ.</data>
@@ -1485,11 +1485,11 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.gateway.startupModeAutomatic">автоматический</data>
   <data key="settings.gateway.startupModeManual">Руководство по эксплуатации</data>
   <data key="settings.gateway.startupModeDisabled">инвалид</data>
-  <data key="setting.general.web">Hier sehen Sie eine Übersicht alle Settings welche Einfluss auf das Verhalten von Vasya haben, sie können diese nach vordefinierten kriterien anpassen</data>
+  <data key="setting.general.web">Hier sehen Sie eine Übersicht alle Settings welche Einfluss auf das Verhalten von Green haben, sie können diese nach vordefinierten kriterien anpassen</data>
   <data key="setting.general.compatibility">Совместимость</data>
   <data key="setting.general.compatibilityDesc">Mit diesem Wert werden alle Settings so gesetzt, dass sie möglichst dem CFML2009 Standard entsprechen und mit Introductionen anderer Hersteller kombatibel sind.</data>
   <data key="setting.general.strict">Строгий</data>
-  <data key="setting.general.strictDesc">Mit diesem Wert werden alle Settings so gesetzt, dass Vasya so streng wie möglich mit der Umsetzung des Code ist.</data>
+  <data key="setting.general.strictDesc">Mit diesem Wert werden alle Settings so gesetzt, dass Green so streng wie möglich mit der Umsetzung des Code ist.</data>
   <data key="setting.general.speed">Скорость</data>
   <data key="setting.general.speedDesc">Mit diesem Wert werden alle Settings so gesetzt, dass sie eine möglichst schnelle Ausführung des Code erlauben.</data>
   <data key="setting.general.component">Составная часть</data>

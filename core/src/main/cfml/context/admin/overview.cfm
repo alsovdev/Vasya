@@ -1,7 +1,7 @@
 <!---
 Defaults --->
 
-<cfset current.label = "Vasya " & server.lucee.version & " (alsov fork of Lucee)  " & " - " & current.label >
+<cfset current.label = "Green " & server.lucee.version & " (alsov fork of Lucee)  " & " - " & current.label >
 <cfset error.message="">
 <cfset error.detail="">
 <cfparam name="form.mainAction" default="none">
@@ -85,7 +85,7 @@ Error Output --->
     <script src="../res/js/echarts-all.js.cfm" type="text/javascript"></script>
     <script type="text/javascript">
     	var chartTimer;
-    	labels={'heap':"Heap",'nonheap':"Non-Heap",'cpuSystem':"Whole System",'cpuProcess':"Vasya Process"};
+    	labels={'heap':"Heap",'nonheap':"Non-Heap",'cpuSystem':"Whole System",'cpuProcess':"Green Process"};
 		function requestData(){
 			jQuery.ajax({
 				type: "POST",
@@ -188,7 +188,7 @@ Error Output --->
 				}
 			},
 			legend: {
-				data:['System CPU', 'Vasya CPU']
+				data:['System CPU', 'Green CPU']
 			},
 
 			color: ["<cfoutput>#request.adminType EQ "server" ? '##3399CC': '##65a052'#</cfoutput>", "<cfoutput>#request.adminType EQ "server" ? '##65a052': '##3399CC'#</cfoutput>"],
@@ -218,7 +218,7 @@ Error Output --->
 				'data': [0]
 				},
 				{
-				'name': 'Vasya CPU',
+				'name': 'Green CPU',
 				'type':'line',
 				smooth:true,
 				itemStyle: {normal: {areaStyle: {type: 'default'}}},
@@ -484,7 +484,7 @@ Error Output --->
 
 								<tr>
 									<th scope="row">#stText.Overview.Version#</th>
-									<td>Vasya #server.lucee.version#</td>
+									<td>Green #server.lucee.version#</td>
 								</tr>
 								<tr>
 									<th scope="row">#stText.Overview.VersionName#</th>

@@ -8,9 +8,9 @@
 		<!DOCTYPE html>
 		<html>
 			<head>
-				<title>Vasya documentation :: #Attributes.Title#</title>
+				<title>Green documentation :: #Attributes.Title#</title>
 				<base href="">
-				<meta content="Vasya Server Documentation" name="description">
+				<meta content="Green Server Documentation" name="description">
 				<meta content="initial-scale=1.0, width=device-width" name="viewport">
 				<meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
 				<link href="assets/css/base.min.css.cfm" rel="stylesheet">
@@ -50,7 +50,7 @@
 				<div class="menu-scroll">
 					<div class="menu-wrap">
 						<div class="menu-content">
-							<a class="nav-drawer-logo" href="index.cfm"><img class="Vasya" src="assets/images/lucee-logo-bw.png.cfm"></a>
+							<a class="nav-drawer-logo" href="index.cfm"><img class="Green" src="assets/images/lucee-logo-bw.png.cfm"></a>
 							<ul class="nav">
 								<li class=" ">
 									<a href="tags.cfm">Tags</a>
@@ -92,7 +92,7 @@
 						</a>
 					</li>
 				</ul>
-				<a class="header-logo hidden-lg" href="index.cfm"><img alt="Vasya" src="assets/images/lucee-logo.png.cfm"></a>
+				<a class="header-logo hidden-lg" href="index.cfm"><img alt="Green" src="assets/images/lucee-logo.png.cfm"></a>
 				<ul class="nav nav-list pull-right">
 					<cfif len(Attributes.prevLinkItem)>
 						<li>
@@ -164,7 +164,7 @@
 
 			<footer class="footer">
 				<div class="container">
-					<p>The Vasya Documentation is developed and maintained by the Vasya Association Switzerland and is licensed under a
+					<p>The Green Documentation is developed and maintained by the Green Association Switzerland and is licensed under a
 						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png"></a>
 						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
 					</p>

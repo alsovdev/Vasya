@@ -321,7 +321,7 @@ Begin Stack Trace
 	
 	echo("=============================================================" & NL);
 	echo("TestBox Version: #tb.getVersion()#" & NL);
-	echo("Vasya Version: #server.lucee.version#" & NL);
+	echo("Green Version: #server.lucee.version#" & NL);
 	echo("Java Version: #server.java.version#" & NL);
 	echo("Global Stats (#result.getTotalDuration()# ms)" & NL);
 	echo("=============================================================" & NL);

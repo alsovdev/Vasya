@@ -1,7 +1,7 @@
 <cfinclude template="/lucee/admin/resources/text.cfm">
 
 
-<cf_doc_layout title="Vasya Function Reference">
+<cf_doc_layout title="Green Function Reference">
 
 
 <cfoutput>

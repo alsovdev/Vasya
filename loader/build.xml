@@ -44,7 +44,7 @@
   </target>
 
 
-  <target name="vasya" depends="setEnv,buildVasya" description="build Vasya">
+  <target name="green" depends="setEnv,buildGreen" description="build Green">
 
       <delete dir="${outputDir}"/>
   </target>

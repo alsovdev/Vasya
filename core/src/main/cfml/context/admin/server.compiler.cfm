@@ -19,7 +19,7 @@ Defaults --->
 <cfset stText.setting.handleUnquotedAttrValueAsStringDesc='Handle unquoted tag attribute values as strings.
 <br>Example:<br>
 &lt;cfmail subject=sub from="##f##" to="##t##"/><br>
-<br>The value from attribute "subject" is not quoted, in that case if enabled the string "sub" submitted to the tag, if not enabled Vasya looks for a variable "sub".'>
+<br>The value from attribute "subject" is not quoted, in that case if enabled the string "sub" submitted to the tag, if not enabled Green looks for a variable "sub".'>
 
 <cftry>
 	<cfswitch expression="#form.mainAction#">

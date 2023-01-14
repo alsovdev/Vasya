@@ -1,10 +1,10 @@
 <cfset stText.CustomTags.name="Name">
-<cfset stText.CustomTags.nameMissing="Missing the name for the new Mapping, this name is used when you deploy a Vasya Archive (.lar) based on this Mapping.">
-<cfset stText.CustomTags.nameDesc="The name is used as identifier when you automatically import a Vasya Archive build based on this Mapping.">
+<cfset stText.CustomTags.nameMissing="Missing the name for the new Mapping, this name is used when you deploy a Green Archive (.lar) based on this Mapping.">
+<cfset stText.CustomTags.nameDesc="The name is used as identifier when you automatically import a Green Archive build based on this Mapping.">
 <cfset stText.CustomTags.PhysicalDesc="Directory path where the custom tags are located.">
-<cfset stText.CustomTags.archiveDesc="File path to a custom tag Vasya Archive (.lar).">
-<cfset stText.CustomTags.PrimaryDesc="Defines where Vasya looks first for a requested custom tags">
-<cfset stText.CustomTags.trustedDesc="When does Vasya checks for changes in the source file for an already loaded custom tags">
+<cfset stText.CustomTags.archiveDesc="File path to a custom tag Green Archive (.lar).">
+<cfset stText.CustomTags.PrimaryDesc="Defines where Green looks first for a requested custom tags">
+<cfset stText.CustomTags.trustedDesc="When does Green checks for changes in the source file for an already loaded custom tags">
 
 
 <!--- <cfif isDefined("form")>

@@ -20,7 +20,7 @@
 <cfoutput>
 <html>
 <head>
-	<title>#attributes.title# - Vasya #ucFirst(request.adminType)# Administrator</title>
+	<title>#attributes.title# - Green #ucFirst(request.adminType)# Administrator</title>
 	<link rel="stylesheet" href="../res/css/admin-#resNameAppendix#.css.cfm" type="text/css">
 	<meta name="robots" content="noindex,nofollow">
 	<cfhtmlhead action="flush">
@@ -102,7 +102,7 @@
 				<tr>
 					<td class="lotd" id="copyrighttd" colspan="#hasNavigation?2:1#">
 						<div id="copyright" class="copy">
-							&copy; #year(Now())# Vasya
+							&copy; #year(Now())# Green
 							<!--- <a href="https://www.lucee.org" target="_blank">Lucee Association Switzerland</a>.
 							All Rights Reserved --->
 						</div>

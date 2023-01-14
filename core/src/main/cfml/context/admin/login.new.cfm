@@ -18,8 +18,8 @@ catch(e) {
 	<cfif request.adminType == "server">
 		You will need to configure a password before you can access the Server Administrator.
 		<ul>
-		<li>create a file with name <b>password.txt</b> containing your new password under the root Vasya server directory ( /lucee-server/context/password.txt ).</li>
-		<li>click "import file", Vasya will then read and configure your new password, afterwards Vasya will automatically delete that file</ul>
+		<li>create a file with name <b>password.txt</b> containing your new password under the root Green server directory ( /lucee-server/context/password.txt ).</li>
+		<li>click "import file", Green will then read and configure your new password, afterwards Green will automatically delete that file</ul>
 
 		
 	<cfelse>

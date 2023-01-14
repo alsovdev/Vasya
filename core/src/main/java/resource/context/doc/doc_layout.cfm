@@ -11,8 +11,8 @@
 
 <cfset luceeVersion = listFirst( server.lucee.version, '.' ) & '.' & listGetAt( server.lucee.version, 2, '.' )>
 
-<cfparam name="Attributes.title" default="Vasya Doc Reference #luceeVersion#">
-<cfparam name="Attributes.description" default="Vasya Tag, Function, and Member Methods Reference for Vasya #luceeVersion#">
+<cfparam name="Attributes.title" default="Green Doc Reference #luceeVersion#">
+<cfparam name="Attributes.description" default="Green Tag, Function, and Member Methods Reference for Green #luceeVersion#">
 
 
 <!DOCTYPE HTML>
@@ -42,7 +42,7 @@
 					&middot;
 					<a href="objects.cfm" class="objects">Objects</a>
 				</nav>
-				<div id="header-title">Vasya #luceeVersion# Reference</div>
+				<div id="header-title">Green #luceeVersion# Reference</div>
 			</header>
 			<div id="content">
 				#thistag.generatedcontent#

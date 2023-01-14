@@ -4,32 +4,32 @@
   <data key="admin.search.label">Поиск в Админке</data>
   <data key="admin.search.desc">Поиск в Админке по ключевым словам</data>
   <data key="general.dialect.cfml">Диалект CFML</data>
-  <data key="general.dialect.lucee">Диалект Вася</data>
-  <data key="general.dialect.cfmlDesc">Следующие настройки относятся к диалекту CFML.  Эти настройки не влияют на диалект Васи.</data>
+  <data key="general.dialect.lucee">Диалект Green</data>
+  <data key="general.dialect.cfmlDesc">Следующие настройки относятся к диалекту CFML.  Эти настройки не влияют на диалект Green.</data>
   <data key="services.update.type_manually">Руководство по эксплуатации</data>
-  <data key="services.update.locdesc">Определите URL-адрес, по которому Вася получает свои обновления.  Обычно "https://www.lucee.org"</data>
+  <data key="services.update.locdesc">Определите URL-адрес, по которому Green получает свои обновления.  Обычно "https://www.lucee.org"</data>
   <data key="services.update.location">URL-адрес</data>
   <data key="services.update.settitle">Характеристики</data>
   <data key="services.update.type">Тип</data>
   <data key="services.update.patch">Установленные исправления</data>
   <data key="services.update.type_auto">автоматический</data>
   <data key="services.update.removerun">Удалить исправления</data>
-  <data key="services.update.exedesc">Примените последний патч для вашей версии.  После того, как обновление будет установлено, Вася перезапустится, все сессии будут очищены, и вам придется снова войти в систему.</data>
+  <data key="services.update.exedesc">Примените последний патч для вашей версии.  После того, как обновление будет установлено, Green перезапустится, все сессии будут очищены, и вам придется снова войти в систему.</data>
   <data key="services.update.update">Патч {available} доступен для вашей текущей версии {current}.</data>
   <data key="services.update.infotitle">Информация</data>
-  <data key="services.update.restartdesc">Перезапустите двигатель Васи.</data>
-  <data key="services.update.restartOKDesc">Вася успешно перезапустился.</data>
+  <data key="services.update.restartdesc">Перезапустите двигатель Green.</data>
+  <data key="services.update.restartOKDesc">Green успешно перезапустился.</data>
   <data key="services.update.exe">Выполнить обновление</data>
   <data key="services.update.jira">Подробную информацию можно найти в нашей {a}Системе отслеживания ошибок{/a}.</data>
   <data key="services.update.removedesc">Удалите все установленные патчи или только последние.</data>
   <data key="services.update.noupdate">Для версии {current} патч не доступен.</data>
-  <data key="services.update.restart">Перезапустите Васю</data>
-  <data key="services.update.desc">Вы можете пропатчить Васю, чтобы получить последние исправления ошибок и улучшенную версию.</data>
-  <data key="services.update.setdesc">Определите, откуда Вася получает патчи.  Вася автоматически перезапустится после обновления, чтобы изменения вступили в силу.</data>
+  <data key="services.update.restart">Перезапустите Green</data>
+  <data key="services.update.desc">Вы можете пропатчить Green, чтобы получить последние исправления ошибок и улучшенную версию.</data>
+  <data key="services.update.setdesc">Определите, откуда Green получает патчи.  Green автоматически перезапустится после обновления, чтобы изменения вступили в силу.</data>
   <data key="services.update.removelatest">Удалить последний патч {версия}</data>
   <data key="services.update.remove">Удалить установленные патчи</data>
   <data key="services.update.exerun">выполнить обновление</data>
-  <data key="services.update.typedesc">Определите, как Вася будет пропатчен.  «Автоматически» означает, что Вася автоматически ищет обновления один раз в сутки.  "Вручную" означает, что обновить Васю здесь можно только вручную.</data>
+  <data key="services.update.typedesc">Определите, как Green будет пропатчен.  «Автоматически» означает, что Green автоматически ищет обновления один раз в сутки.  "Вручную" означает, что обновить Green здесь можно только вручную.</data>
   <data key="services.update.snapShot">Снимки</data>
   <data key="services.update.pre_Release">Предварительные выпуски</data>
   <data key="services.update.release">Релизы</data>
@@ -43,7 +43,7 @@
   <data key="services.update.short.release">Релизы</data>
   <data key="services.update.short.pre_release">Предварительные релизы</data>
   <data key="services.update.short.snapshot">Снимки</data>
-  <data key="services.update.downUpTitle">Обновите версию Васи</data>
+  <data key="services.update.downUpTitle">Обновите версию Green</data>
   <data key="services.update.downUpSub">Текущая версия: {version}</data>
   <data key="services.update.downUpDesc">Обновите или понизьте текущую версию.</data>
   <data key="services.update.custom">Обычай</data>
@@ -85,12 +85,12 @@
   <data key="mappings.addCFCFilesDesc">Добавьте также все исходные шаблоны компонентов (.cfc).</data>
   <data key="mappings.topleveldesc">Сделайте это сопоставление доступным через Интернет (т. е. доступным через браузер или удаленный HTTP-вызов)</data>
   <data key="mappings.archiveheaddescription">Имя файла архива (ra или ras), (абсолютное или относительное веб-сайта)</data>
-  <data key="mappings.primaryheaddescription">Устанавливает, где в первую очередь будут искать Вася-файлы</data>
+  <data key="mappings.primaryheaddescription">Устанавливает, где в первую очередь будут искать Green-файлы</data>
   <data key="mappings.trustedheaddescription"></data>
   <data key="mappings.physical">Ресурс</data>
   <data key="mappings.archivetitle">создать архив</data>
   <data key="mappings.compilestoponerrordesc">Устанавливает, должен ли процесс компиляции прерываться при ошибках</data>
-  <data key="mappings.editdesc">Здесь вы можете отредактировать определенный маппинг или создать архив Васи из существующего.</data>
+  <data key="mappings.editdesc">Здесь вы можете отредактировать определенный маппинг или создать архив Green из существующего.</data>
   <data key="mappings.archivedesc">Создайте архив Green (.lar) из существующего сопоставления</data>
   <data key="mappings.physicalhead">Ресурс</data>
   <data key="mappings.archivesecure">Защищено</data>
@@ -105,7 +105,7 @@
   <data key="mappings.compilestoponerror">Остановиться на ошибке</data>
   <data key="mappings.archivemissing">Введите значение имени архива (строка</data>
   <data key="mappings.trustedhead">Осмотреть</data>
-  <data key="mappings.introtext">Обратите внимание, что об этих сопоставлениях (cfm, cfml, cfc) знают только страницы, которые обрабатывает Вася.  Если вы хотите использовать файлы, не обработанные Васей, для этих специальных каталогов сопоставления, вам необходимо добавить виртуальные сопоставления с этими каталогами на ваш сервер приложений.</data>
+  <data key="mappings.introtext">Обратите внимание, что об этих сопоставлениях (cfm, cfml, cfc) знают только страницы, которые обрабатывает Green.  Если вы хотите использовать файлы, не обработанные Green, для этих специальных каталогов сопоставления, вам необходимо добавить виртуальные сопоставления с этими каталогами на ваш сервер приложений.</data>
   <data key="mappings.physicalheaddescription">Путь ресурса для сопоставления (абсолютный или относительный к корневому каталогу)</data>
   <data key="customtags.physical">Ресурс</data>
   <data key="customtags.archive">Архив</data>
@@ -121,22 +121,22 @@
   <data key="customtags.mode.standard">Стандарт CFML</data>
   <data key="customtags.mode.mixed">Смешанный</data>
   <data key="customtags.mode.modern">Современное</data>
-  <data key="customtags.mode.classic">Классический (Вася 1.0 - 3.0)</data>
+  <data key="customtags.mode.classic">Классический (Green 1.0 - 3.0)</data>
   <data key="customtags.mode.custom">Обычай</data>
   <data key="customtags.customtagmappings">Дополнительные ресурсы</data>
   <data key="customtags.physicalmissing">Введите значение ресурса (строка</data>
   <data key="customtags.extensions">Расширения</data>
-  <data key="customtags.customtagmappingsdesc">Каталоги, которые Вася проверяет на Custom Tags.</data>
+  <data key="customtags.customtagmappingsdesc">Каталоги, которые Green проверяет на Custom Tags.</data>
   <data key="customtags.customtagsetting">Настройки</data>
   <data key="customtags.extensionsdesc">Это расширения, используемые для пользовательских тегов, в порядке их поиска.</data>
   <!-- resources.customtags.old.cfm -->
   <data key="CustomTags.name">Имя</data>
-  <data key="CustomTags.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Васи (.ra,.ras) на основе этого сопоставления.</data>
+  <data key="CustomTags.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Green (.ra,.ras) на основе этого сопоставления.</data>
   <data key="CustomTags.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Green Archive на основе этого сопоставления.</data>
   <data key="CustomTags.PhysicalDesc">Путь к каталогу, в котором расположены пользовательские теги.</data>
   <data key="CustomTags.archiveDesc">Путь к файлу с пользовательским тегом Green Archive (.ra или .ras).</data>
-  <data key="CustomTags.PrimaryDesc">Определяет, где Вася в первую очередь ищет запрошенные пользовательские теги</data>
-  <data key="CustomTags.trustedDesc">Когда Вася проверяет наличие изменений в исходном файле по уже загруженным кастомным тегам</data>
+  <data key="CustomTags.PrimaryDesc">Определяет, где Green в первую очередь ищет запрошенные пользовательские теги</data>
+  <data key="CustomTags.trustedDesc">Когда Green проверяет наличие изменений в исходном файле по уже загруженным кастомным тегам</data>
   <data key="security.customtagdescription">Настройки пользовательских тегов можно изменить в «веб-администраторе».</data>
   <data key="security.tagobject">Tag CFObject / &amp;amp;amp;lt;br/&amp;amp;amp;gt;function CreateObject</data>
   <data key="security.debugging">Отладка</data>
@@ -163,7 +163,7 @@
   <data key="security.speclistnewtitle">создать новый веб-контекст</data>
   <data key="security.accesswritedesc">определить доступ для записи данных</data>
   <data key="security.tagimport">Тег CFImport</data>
-  <data key="security.cfmlenvironmentdescription">Настройки, влияющие на то, как код Васи взаимодействует с хост-средой</data>
+  <data key="security.cfmlenvironmentdescription">Настройки, влияющие на то, как код Green взаимодействует с хост-средой</data>
   <data key="security.functions">Tags &amp;amp;amp;amp;amp; Functions</data>
   <data key="security.functionsdescription">Теги и функции, которые могут представлять потенциальный риск для хост-системы</data>
   <data key="security.filedescription">Defines how Green can interact with the local filesystem in a web context.&amp;amp;amp;lt;br/&amp;amp;amp;gt;- none: allows no access to the filesystem at all&amp;amp;amp;lt;br/&amp;amp;amp;gt;- local: allows only access to the filesystem within the webroot&amp;amp;amp;lt;br/&amp;amp;amp;gt;- all: allows full file access on the hosts filesystem&amp;amp;amp;lt;br/&amp;amp;amp;gt;</data>
@@ -175,7 +175,7 @@
   <data key="security.maildescription">Настройки почты можно изменить в "веб-администраторе"</data>
   <data key="security.mapping">Отображение</data>
   <data key="security.tagobjectdescription">С помощью тега CFObject и функции CreateObject вы можете загружать объекты Java.  Если отключено, вы можете создавать объекты только типа "компонент"</data>
-  <data key="security.remotedescription">Позволяет синхронизировать настройки в админке с другими контекстами Васи</data>
+  <data key="security.remotedescription">Позволяет синхронизировать настройки в админке с другими контекстами Green</data>
   <data key="security.tagregistry">Тег CFRegistry</data>
   <data key="security.accessread">Доступ Чтение</data>
   <data key="security.speclisttitle">конкретный веб-контекст</data>
@@ -194,7 +194,7 @@
   <data key="security.accesswrite">Доступ Запись</data>
   <data key="security.specialdesc">Определите параметры безопасности для определенного веб-контекста (веб-приложений).</data>
   <data key="security.mappingdescription">Позволяет добавлять, удалять и обновлять сопоставления в «веб-администраторе».</data>
-  <data key="security.javaaccessdescription">Разрешает доступ к методам и свойствам Java из кода Васи (пример: stringValue.substring(2,5)).  Предоставление доступа к методам и свойствам Java может представлять потенциальную угрозу безопасности.</data>
+  <data key="security.javaaccessdescription">Разрешает доступ к методам и свойствам Java из кода Green (пример: stringValue.substring(2,5)).  Предоставление доступа к методам и свойствам Java может представлять потенциальную угрозу безопасности.</data>
   <data key="security.filelocal">местный</data>
   <data key="security.tabgeneral">Общий</data>
   <data key="security.scheduledtask">Запланированное задание</data>
@@ -353,9 +353,9 @@
   <data key="ext.backtoprevpage">Вернуться к предыдущей странице</data>
   <!-- ext.applications.cfm -->
   <data key="ext.installedInServer">Расширение, установленное в Администраторе сервера</data>
-  <data key="ext.minGreenVersion">Вася Версия</data>
-  <data key="ext.minGreenVersionDesc">Минимальная версия Васи, необходимая для этого расширения.</data>
-  <data key="ext.toSmallVersion">Вам нужна как минимум Вася {версия} для установки этого расширения</data>
+  <data key="ext.minGreenVersion">Green Версия</data>
+  <data key="ext.minGreenVersionDesc">Минимальная версия Green, необходимая для этого расширения.</data>
+  <data key="ext.toSmallVersion">Вам нужна как минимум Green {версия} для установки этого расширения</data>
   <data key="ext.availableVersions">Доступные версии</data>
   <data key="ext.updateTo">обновить до</data>
   <data key="ext.updateTrialTo">обновить как пробную версию</data>
@@ -368,7 +368,7 @@
   <data key="ext.upDownDesc">Обновите или понизьте уже установленную версию.</data>
   <data key="ext.uninstallDesc">Удалить эту версию</data>
   <data key="ext.searchbox">Нет доступного расширения с именем</data>
-  <data key="ext.providerWarning">Это расширение не предоставляется Швейцарской ассоциацией Васи и не обязательно соответствует нашим правилам.  Это расширение не проверяется Швейцарской ассоциацией Васи.  Если у вас есть предложения по улучшению расширения или проблемы, с которыми вы сталкиваетесь, обращайтесь напрямую к автору расширения.</data>
+  <data key="ext.providerWarning">Это расширение не предоставляется Швейцарской ассоциацией Green и не обязательно соответствует нашим правилам.  Это расширение не проверяется Швейцарской ассоциацией Green.  Если у вас есть предложения по улучшению расширения или проблемы, с которыми вы сталкиваетесь, обращайтесь напрямую к автору расширения.</data>
   <data key="Buttons.go">идти</data>
   <data key="Buttons.upDown">обновить / понизить</data>
   <!-- ext.providers.cfm -->
@@ -459,15 +459,15 @@
   <data key="application.listenermodedescription_curr2root">Ищет файл «Application.cfc/Application.cfm» от текущего до корневого веб-каталога.</data>
   <data key="application.listenermodedescription_currorroot">Ищет файл «Application.cfc/Application.cfm» в текущем каталоге и в корневом веб-каталоге.</data>
   <data key="application.requesttimeout">Время ожидания запроса</data>
-  <data key="application.listenertypedescription_none">При вызове запроса никакие другие шаблоны инициализации Вася вызывать не будет.</data>
+  <data key="application.listenertypedescription_none">При вызове запроса никакие другие шаблоны инициализации Green вызывать не будет.</data>
   <data key="application.scriptprotectnone">Скрипт-защита не активна</data>
-  <data key="application.listenertypedescription_modern">Современная обработка.  Вася ищет только файл "Application.cfc"</data>
+  <data key="application.listenertypedescription_modern">Современная обработка.  Green ищет только файл "Application.cfc"</data>
   <data key="application.listenerdescription">Устанавливает, как обрабатываются запросы и какие шаблоны вызываются по умолчанию.</data>
   <data key="application.listenertype_none">Никто</data>
   <data key="application.listenermode">Режим</data>
   <data key="application.listenermode_root">Корень</data>
   <data key="application.RequestTimeoutTime">Время</data>
-  <data key="application.RequestTimeoutDesc">Определяет, как Вася обрабатывает длительные запросы.</data>
+  <data key="application.RequestTimeoutDesc">Определяет, как Green обрабатывает длительные запросы.</data>
   <data key="application.AllowURLRequestTimeout">URL-адрес</data>
   <data key="application.ConcurrentRequest">Параллельные запросы</data>
   <data key="application.ConcurrentRequestDesc">Этот параметр определяет, как система обрабатывает одновременные запросы.</data>
@@ -485,16 +485,16 @@
   <data key="application.scriptprotectdescription">Конфигурация защиты сценариев защищает вашу систему от «межсайтовых сценариев».</data>
   <data key="application.scriptprotect">Скрипт-защита</data>
   <data key="application.scriptprotectall">Script-protect проверяет внешние данные во всех областях (cgi, cookie, form, url)</data>
-  <data key="application.listenertypedescription_mixed">Смешанное обращение.  Вася ищет файл "Application.cfm/OnRequestEnd.cfm", а также файл "Application.cfc"</data>
+  <data key="application.listenertypedescription_mixed">Смешанное обращение.  Green ищет файл "Application.cfm/OnRequestEnd.cfm", а также файл "Application.cfc"</data>
   <data key="application.listenermode_curr">Текущий</data>
   <data key="application.listenermode_curr2root">Текущий для root (по умолчанию CFML)</data>
   <data key="application.listenermode_currorroot">Текущий или корневой</data>
-  <data key="application.listenermodedescription">Определяет, где Вася ищет файлы "Application.cfc/Application.cfm".  В случае типа "none" эта настройка не имеет смысла.</data>
+  <data key="application.listenermodedescription">Определяет, где Green ищет файлы "Application.cfc/Application.cfm".  В случае типа "none" эта настройка не имеет смысла.</data>
   <data key="application.missingscriptprotect">Выберите значение для защиты от скриптов</data>
   <data key="application.listenermodedescription_root">Ищет файл «Application.cfc/Application.cfm» только в корневом каталоге.</data>
   <data key="application.listenertype_mixed">Mixed (CFML &amp;amp;amp;amp;gt;= 7)</data>
   <data key="application.listenertype_classic">Classical (CFML &amp;amp;amp;amp;lt; 7)</data>
-  <data key="application.listenertypedescription_classic">Классическая управляемость.  Вася ищет файл "Application.cfm" и соответствующий файл "OnRequestEnd.cfm"</data>
+  <data key="application.listenertypedescription_classic">Классическая управляемость.  Green ищет файл "Application.cfm" и соответствующий файл "OnRequestEnd.cfm"</data>
   <data key="application.listenermodedescription_curr">Ищет файл «Application.cfc/Application.cfm» только в текущем каталоге шаблона.</data>
   <data key="application.allowurlrequesttimeout">Время ожидания запроса в URL</data>
   <data key="mail.passwordmissing">Пожалуйста, введите значение для соответствующего пароля.</data>
@@ -521,10 +521,10 @@
   <data key="mail.porterrorlast">) номер типа</data>
   <data key="mail.spoolenabled">Включить буферизацию</data>
   <data key="mail.settings">Настройки почты</data>
-  <data key="mail.mailserversdescription.local">Вы можете определить более одного подключения к почтовому серверу.  При отправке письма Вася пытается отправить письмо с первого заданного почтового сервера.  Если операция отправки не удалась, Вася продолжит использовать следующий почтовый сервер в списке.</data>
+  <data key="mail.mailserversdescription.local">Вы можете определить более одного подключения к почтовому серверу.  При отправке письма Green пытается отправить письмо с первого заданного почтового сервера.  Если операция отправки не удалась, Green продолжит использовать следующий почтовый сервер в списке.</data>
   <data key="mail.mailserversdescription.global">Эти подключения были созданы администратором сервера и являются общими для ВСЕХ веб-контекстов.
 Вы не можете изменить эти почтовые серверы в веб-администраторе.
-Вы можете определить более одного подключения к почтовому серверу. При отправке электронного письма Вася пытается отправить письмо с первого определенного почтового сервера. Если операция отправки завершится неудачей, Вася продолжит использовать следующий почтовый сервер в списке.</data>
+Вы можете определить более одного подключения к почтовому серверу. При отправке электронного письма Green пытается отправить письмо с первого определенного почтового сервера. Если операция отправки завершится неудачей, Green продолжит использовать следующий почтовый сервер в списке.</data>
   <data key="mail.createnewMailServerConn">Новое подключение</data>
   <data key="mail.createnewMailServerConnDesc">Создайте новое подключение к почтовому серверу.</data>
   <data key="mail.editMailServerConn">Изменить подключение</data>
@@ -566,7 +566,7 @@
   <data key="search.searchterm">Введите поисковый запрос</data>
   <data key="search.language">Язык</data>
   <data key="search.createcol">Создать коллекцию</data>
-  <data key="search.description">Здесь вы можете управлять, создавать, заполнять и удалять коллекции поиска.  По умолчанию Вася использует Apache Lucene в качестве поисковой системы.</data>
+  <data key="search.description">Здесь вы можете управлять, создавать, заполнять и удалять коллекции поиска.  По умолчанию Green использует Apache Lucene в качестве поисковой системы.</data>
   <data key="search.noresult">Нет результата по вашим критериям</data>
   <data key="search.missing_name">Пожалуйста, введите название коллекции</data>
   <data key="search.indexsubdirs">Подкаталоги индекса</data>
@@ -581,7 +581,7 @@
   <data key="components.basecomponent">Базовый/корневой компонент</data>
   <data key="components.componentdumptemplatemissing">Пожалуйста, введите значение для шаблона "dump"</data>
   <data key="components.componentpathcachedesc">путь компонента кэшируется и не разрешается снова</data>
-  <data key="components.web">Определяет, как Вася будет обрабатывать компоненты.</data>
+  <data key="components.web">Определяет, как Green будет обрабатывать компоненты.</data>
   <data key="components.datamemberaccesstype">Тип доступа к элементу данных</data>
   <data key="components.componentpathcache">Кэш</data>
   <data key="components.dmatremote">дистанционный пульт</data>
@@ -594,13 +594,13 @@
   <data key="components.archivemissing">Введите значение имени архива (строка</data>
   <data key="components.datamemberaccesstypedescription">Определите средство доступа для данных-членов компонента.  Это определяет, как можно получить доступ к переменным области "this" компонента извне компонента.</data>
   <data key="components.autoimportdescription">следующее определение пакета импортируется в каждый шаблон.</data>
-  <data key="components.componentmappingsdesc">Дополнительные Ресурсы, которые Вася проверяет на наличие Компонентов.</data>
+  <data key="components.componentmappingsdesc">Дополнительные Ресурсы, которые Green проверяет на наличие Компонентов.</data>
   <data key="components.componentmappingsearch">Сопоставления поиска</data>
   <data key="components.useshadowdescription">Определяет, имеет ли компонент область независимых переменных, параллельную &amp;amp;quot;this&amp;amp;quot;  область применения (стандарт CFML) или нет.</data>
   <data key="components.server">Определите параметры компонента, которые будут использоваться по умолчанию для всех веб-контекстов.</data>
   <data key="components.useshadow">Область действия переменных</data>
   <data key="components.autoimportmissing">Введите значение в поле автоматического импорта</data>
-  <data key="components.triggerdatamemberdescription">Если внутри компонента нет доступного элемента данных (свойства, элемента области видимости this), Вася ищет доступные подходящие &amp;amp;quot;геттеры&amp;amp;quot;  или &amp;amp;quot;сеттеры&amp;amp;quot;  на запрашиваемое имущество.  Следующий пример должен прояснить это поведение.  &amp;amp;quot;somevar = myComponent.properyName&amp;amp;quot;.  Если &amp;amp;quot;мойКомпонент&amp;amp;quot;  не имеет доступного члена данных с именем "propertyName", Вася ищет член функции (метод) с именем "getPropertyName".</data>
+  <data key="components.triggerdatamemberdescription">Если внутри компонента нет доступного элемента данных (свойства, элемента области видимости this), Green ищет доступные подходящие &amp;amp;quot;геттеры&amp;amp;quot;  или &amp;amp;quot;сеттеры&amp;amp;quot;  на запрашиваемое имущество.  Следующий пример должен прояснить это поведение.  &amp;amp;quot;somevar = myComponent.properyName&amp;amp;quot;.  Если &amp;amp;quot;мойКомпонент&amp;amp;quot;  не имеет доступного члена данных с именем "propertyName", Green ищет член функции (метод) с именем "getPropertyName".</data>
   <data key="components.physical">Ресурс</data>
   <data key="components.trusted">Доверенный</data>
   <data key="components.componentDeepSearch">Поиск в подкаталогах</data>
@@ -615,15 +615,15 @@
   <data key="components.createnewcompmapping">Создать новый дополнительный ресурс</data>
   <data key="customtags.createnewcustomtagmapping">Создать новый дополнительный ресурс</data>
   <data key="components.dmatpackage">упаковка</data>
-  <data key="components.basecomponentdescription">Каждый компонент, который явно не расширяет другой компонент (атрибут «extends»), по умолчанию расширяет этот компонент.  Это означает, что каждый компонент каким-то образом расширяет этот базовый компонент.  Каждое изменение в этом компоненте требует перезапуска от Васи.</data>
+  <data key="components.basecomponentdescription">Каждый компонент, который явно не расширяет другой компонент (атрибут «extends»), по умолчанию расширяет этот компонент.  Это означает, что каждый компонент каким-то образом расширяет этот базовый компонент.  Каждое изменение в этом компоненте требует перезапуска от Green.</data>
   <!-- resources.component.cfm -->
   <data key="Components.name">Имя</data>
   <data key="Components.nameMissing">Отсутствует имя для нового сопоставления, это имя используется при развертывании архива Green (.lar) на основе этого сопоставления.</data>
   <data key="Components.nameDesc">Имя используется в качестве идентификатора при автоматическом импорте сборки Green Archive на основе этого сопоставления.</data>
   <data key="Components.PhysicalDesc">Путь к каталогу, в котором находятся компоненты, этот путь не должен включать пакет.</data>
   <data key="Components.archiveDesc">Путь к файлу компонентов Green Archive (.lar).</data>
-  <data key="Components.PrimaryDesc">Определяет, где Вася в первую очередь ищет запрошенный компонент</data>
-  <data key="Components.trustedDesc">Когда Вася проверяет наличие изменений в исходном файле для уже загруженного компонента</data>
+  <data key="Components.PrimaryDesc">Определяет, где Green в первую очередь ищет запрошенный компонент</data>
+  <data key="Components.trustedDesc">Когда Green проверяет наличие изменений в исходном файле для уже загруженного компонента</data>
   <data key="login.passwordmissing">Пожалуйста, введите значение для пароля поля</data>
   <data key="login.retypenewpasswordmissing">Пожалуйста, введите новый пароль еще раз</data>
   <data key="login.password">Пароль</data>
@@ -722,13 +722,13 @@
   <data key="debug.exeTimeApp">Приложение</data>
   <data key="debug.maxLogs">Максимальное количество зарегистрированных запросов</data>
   <data key="debug.minExeTime">Минимальное время выполнения (мс)</data>
-  <data key="debug.minExeTimeDesc">Минимальное время выполнения, за которое Вася выводит отладочную информацию запроса.</data>
+  <data key="debug.minExeTimeDesc">Минимальное время выполнения, за которое Green выводит отладочную информацию запроса.</data>
   <data key="debug.pathRestriction">Ограничение пути</data>
   <data key="debug.pathRestrictionDesc">Путь, который не следует выводить, разделенный разрывом строки.</data>
   <data key="debug.settingTitle">Настройки</data>
   <data key="debug.settingDesc">Настройте размер журналов отладки.</data>
   <data key="debug.outputTitle">Вывод</data>
-  <data key="debug.outputDesc">Отладочная информация, записанная Васей.</data>
+  <data key="debug.outputDesc">Отладочная информация, записанная Green.</data>
   <data key="debug.filter">Фильтр</data>
   <data key="debug.filterTitle">Выходные фильтры</data>
   <data key="debug.filterPath">Выводит только те записи, где путь соответствует следующему шаблону.</data>
@@ -737,7 +737,7 @@
   <data key="debug.switchTemplate">Переключить шаблон отладки</data>
   <data key="debug.selectDebugTemplate">Выберите шаблон отладки</data>
   <!-- debugging.settings.cfm -->
-  <data key="debug.settings.desc">Включить определенные параметры ведения журнала для Васи</data>
+  <data key="debug.settings.desc">Включить определенные параметры ведения журнала для Green</data>
   <!-- resources.rest.cfm -->
   <data key="mapping.virtual">Вам нужно ввести виртуальное имя</data>
   <data key="mapping.physical">Вам нужно ввести физический путь</data>
@@ -801,21 +801,21 @@
   <data key="rest.DefaultHead">По умолчанию</data>
   <data key="rest.PhysicalMissing">Введите значение физического ресурса.</data>
   <data key="general.enabled">Включено</data>
-  <data key="scopes.sessiontimeoutdescription">Устанавливает количество времени, в течение которого Вася будет поддерживать активность сеанса.  Это поведение можно переопределить с помощью тега cfapplication.</data>
+  <data key="scopes.sessiontimeoutdescription">Устанавливает количество времени, в течение которого Green будет поддерживать активность сеанса.  Это поведение можно переопределить с помощью тега cfapplication.</data>
   <data key="scopes.sessiontype_application">заявка</data>
   <data key="scopes.clientcookies">Куки-файлы клиента</data>
   <data key="scopes.timeoutendvalue">тайм-аут должен иметь целочисленное значение</data>
   <data key="scopes.mergeurlformdescription">Этот параметр определяет, будут ли URL-адрес области и форма объединены вместе (значение по умолчанию CFML — false).  Если ключ уже существует в области формы и URL-адреса, используется значение из области формы.</data>
   <data key="scopes.timeoutminutesvalue">Стоимость минут для</data>
-  <data key="scopes.applicationtimeoutdescription">Устанавливает время, в течение которого Вася будет поддерживать активность приложения.  Это поведение можно переопределить с помощью тега cfapplication.</data>
+  <data key="scopes.applicationtimeoutdescription">Устанавливает время, в течение которого Green будет поддерживать активность приложения.  Это поведение можно переопределить с помощью тега cfapplication.</data>
   <data key="scopes.clienttimeout">Время ожидания клиента</data>
-  <data key="scopes.cascadetoresultsetdescription">Если у переменной не определена область видимости (пример: #myVar# вместо #variables.myVar#), Вася также будет искать доступные наборы результатов (CFML&amp;amp;nbsp;Standard) или нет.</data>
-  <data key="scopes.cascadingdescription">В зависимости от этой настройки Вася просматривает определенные области видимости, чтобы найти переменную, вызываемую из источника CFML.  Это произойдет только тогда, когда переменная вызывается без области видимости.  (Пример: #myVar# вместо #variables.myVar#)
+  <data key="scopes.cascadetoresultsetdescription">Если у переменной не определена область видимости (пример: #myVar# вместо #variables.myVar#), Green также будет искать доступные наборы результатов (CFML&amp;amp;nbsp;Standard) или нет.</data>
+  <data key="scopes.cascadingdescription">В зависимости от этой настройки Green просматривает определенные области видимости, чтобы найти переменную, вызываемую из источника CFML.  Это произойдет только тогда, когда переменная вызывается без области видимости.  (Пример: #myVar# вместо #variables.myVar#)
 - строгий: сканирует только диапазон переменных
 - маленький: сканирует диапазон переменных, URL, форма
 - стандартный (CFML Standard  ): сканирует переменные областей, cgi, URL, форму, cookie</data>
   <data key="scopes.sessiontypedescription">Сеансы JEE позволяют проводить сеансы над кластером.  Когда вы измените этот параметр, вы потеряете текущий сеанс и вам придется войти в систему заново.</data>
-  <data key="scopes.web">Здесь вы можете определить настройки того, как Вася будет работать с областями.</data>
+  <data key="scopes.web">Здесь вы можете определить настройки того, как Green будет работать с областями.</data>
   <data key="scopes.localmodeClassic">Классический</data>
   <data key="scopes.timeoutsecondsvalue">Значение секунд для</data>
   <data key="scopes.sessionmanagementdescription">По умолчанию управление сеансом может быть включено.  Это поведение можно переопределить с помощью тега cfapplication.</data>
@@ -840,7 +840,7 @@
   <data key="scopes.sessionmanagement">Управление сеансом</data>
   <data key="scopes.timeouthoursvalue">Стоимость часов для</data>
   <data key="scopes.localmode">Режим локальной области</data>
-  <data key="scopes.clienttimeoutdescription">Устанавливает количество времени, в течение которого Вася будет поддерживать активность клиента.</data>
+  <data key="scopes.clienttimeoutdescription">Устанавливает количество времени, в течение которого Green будет поддерживать активность клиента.</data>
   <data key="scopes.small">небольшой</data>
   <data key="scopes.sessiontype_jee">JEE</data>
   <data key="scopes.server">Здесь вы можете определить параметры области, которые будут использоваться по умолчанию для всех веб-контекстов.</data>
@@ -858,13 +858,13 @@
   <data key="Scopes.cgiReadOnlyFalse">Доступно для записи</data>
   <data key="Scopes.cgiReadOnlyFalseDesc">Область CGI можно изменить, как и другие области.</data>
   <data key="compiler.nullSupport">Нулевая поддержка</data>
-  <data key="compiler.nullSupportOnlyServer">Эта настройка возможна только в Администраторе Вася Сервера.</data>
+  <data key="compiler.nullSupportOnlyServer">Эта настройка возможна только в Администраторе Green Сервера.</data>
   <data key="compiler.nullSupportDesc">Definiert wie Green null unterstützt.</data>
   <data key="compiler.nullSupportFull">Полная поддержка</data>
-  <data key="compiler.nullSupportFullDesc">У Васи есть полная поддержка null, включая литерал "null".  Подробнее читайте в Вики Васи.</data>
+  <data key="compiler.nullSupportFullDesc">У Green есть полная поддержка null, включая литерал "null".  Подробнее читайте в Вики Green.</data>
   <data key="compiler.nullSupportPartial">Частичная поддержка (по умолчанию CFML)</data>
-  <data key="compiler.nullSupportPartialDesc">У Васи только частичная нулевая поддержка.</data>
-  <data key="setting.regex">Вася настройки регулярных выражений (регулярных выражений).</data>
+  <data key="compiler.nullSupportPartialDesc">У Green только частичная нулевая поддержка.</data>
+  <data key="setting.regex">Green настройки регулярных выражений (регулярных выражений).</data>
   <data key="setting.compiler">Настройки компилятора Green, это влияет на то, как компилятор Green анализирует исходный код.  Изменение этих настроек сбрасывает все существующие файлы классов и запускает перекомпиляцию.</data>
   <data key="setting.dotNotation">Ключевой случай</data>
   <!-- server.compiler.cfm -->
@@ -886,7 +886,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="setting.templatecache">Кэш пула страниц</data>
   <data key="setting.querycache">Кэш запросов</data>
   <data key="setting.objectcache">Кэш объектов</data>
-  <data key="setting.web">Вася выходной контроль</data>
+  <data key="setting.web">Green выходной контроль</data>
   <data key="setting.templatecacheclear">Очистить кэш пула страниц</data>
   <data key="setting.templatecachecleardesc">Нажмите кнопку выше, чтобы очистить кэш пула страниц.  Этот кэш используется для кэширования классов объектов шаблона (загруженный исходный код).</data>
   <data key="setting.inspecttemplate">Шаблоны проверки (CFM/CFC)</data>
@@ -902,14 +902,14 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="setting.ctcache">Кэш пути пользовательского тега</data>
   <data key="setting.inspecttemplateneverShort">Никогда</data>
   <data key="setting.inspecttemplatenever">Никогда (лучшее исполнение)</data>
-  <data key="setting.showversion">Выходная Вася версия</data>
-  <data key="setting.showversiondescription">Верните Васю версию в шапку ответа</data>
+  <data key="setting.showversion">Выходная Green версия</data>
+  <data key="setting.showversiondescription">Верните Green версию в шапку ответа</data>
   <data key="setting.allowCompression">Сжатие</data>
-  <data key="setting.allowCompressionDescription">Включить сжатие (GZip) для потока ответов Васи для текстовых ответов, если это поддерживается клиентом (веб-браузером).</data>
+  <data key="setting.allowCompressionDescription">Включить сжатие (GZip) для потока ответов Green для текстовых ответов, если это поддерживается клиентом (веб-браузером).</data>
   <data key="setting.cfmlWriterReg">Нет управления пробелами</data>
   <data key="setting.cfmlWriterWS">Простое управление пробелами — каждый символ пробела, следующий за пробелом, удаляется.</data>
   <data key="setting.cfmlWriterWSPref">Интеллектуальное управление пробелами — каждый пробельный символ, следующий за пробелом, удаляется, но пробелы внутри тегов: &amp;amp;lt;code&amp;amp;gt;, &amp;amp;lt;pre&amp;amp;gt;  и &amp;amp;lt;текстовое поле&amp;amp;gt;  хранится</data>
-  <data key="setting.server">Вася выходной контроль</data>
+  <data key="setting.server">Green выходной контроль</data>
   <data key="setting.suppressContent">Подавить содержимое для CFC Remoting</data>
   <data key="setting.suppressContentDescription">Подавлять содержимое, записываемое в поток ответов, когда компонент вызывается удаленно.  Работает только в том случае, если содержимое не было сброшено ранее.</data>
   <data key="setting.bufferOutput">Вывод тела тега буфера</data>
@@ -991,10 +991,10 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="video.server.installedbut2">Рекомендуется ручная установка.</data>
   <data key="video.server.installedbut1">Видеокомпоненты установлены, но не могут быть выполнены должным образом:</data>
   <data key="video.server.mantitle">Ручная установка</data>
-  <data key="video.server.installednotdesc">Для тега cfvideo/cfvideoplayer требуются определенные видеокомпоненты ОС.  Они не идут в комплекте с Васей, потому что сильно увеличится размер софта и потому что некоторые кодеки нельзя распространять, хотя их использование не запрещено.  Поэтому вы можете загрузить эти компоненты непосредственно у поставщика и загрузить их с помощью формы ниже.</data>
-  <data key="video.server.installednotuploaddesc">Видеокомпоненты (ffmpeg.zip) заливаются прямо поверх формы и копируются в Васю (без установки).  В качестве источника вы можете использовать, например.  {провайдер}</data>
+  <data key="video.server.installednotdesc">Для тега cfvideo/cfvideoplayer требуются определенные видеокомпоненты ОС.  Они не идут в комплекте с Green, потому что сильно увеличится размер софта и потому что некоторые кодеки нельзя распространять, хотя их использование не запрещено.  Поэтому вы можете загрузить эти компоненты непосредственно у поставщика и загрузить их с помощью формы ниже.</data>
+  <data key="video.server.installednotuploaddesc">Видеокомпоненты (ffmpeg.zip) заливаются прямо поверх формы и копируются в Green (без установки).  В качестве источника вы можете использовать, например.  {провайдер}</data>
   <data key="video.server.mandesc">Ручную установку можно выполнить следующим образом: Откройте URL-адрес {поставщика} и загрузите соответствующий файл ffmpeg.zip для вашей операционной системы ({Имя ОС}).  Затем скопируйте этот файл (не распаковывая) в каталог {каталог}.  Если вы не можете найти файл для вашей операционной системы, просто свяжитесь с нами.</data>
-  <data key="video.server.installednoturldesc">Видеокомпоненты загружаются автоматически с удаленного сервера и копируются в Васю (без установки).</data>
+  <data key="video.server.installednoturldesc">Видеокомпоненты загружаются автоматически с удаленного сервера и копируются в Green (без установки).</data>
   <data key="video.server.installednotuploadtitle">Видеокомпоненты по загрузке</data>
   <data key="video.provider">Провайдер</data>
   <data key="video.providermissing">Отсутствует определение поставщика</data>
@@ -1028,7 +1028,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="schedule.urlmissing">Пожалуйста, введите значение для URL задачи</data>
   <data key="schedule.file">Файл</data>
   <data key="schedule.timeoutdescription">Время ожидания в секундах.  Определяет, как долго задача будет ждать ответа сервера, вызываемого по URL-адресу.</data>
-  <data key="schedule.outputdesc">С помощью следующих настроек вы можете определить, должен ли Вася сохранять результат вызова URL и где Вася должен хранить этот результат.</data>
+  <data key="schedule.outputdesc">С помощью следующих настроек вы можете определить, должен ли Green сохранять результат вызова URL и где Green должен хранить этот результат.</data>
   <data key="schedule.port">Порт</data>
   <data key="schedule.urldescription">URL новой задачи</data>
   <data key="schedule.namedescription">Имя новой задачи (это имя должно быть уникальным)</data>
@@ -1042,7 +1042,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="schedule.enddate">Дата окончания</data>
   <data key="schedule.portdescription">Порт URL для вызова (HTTP по умолчанию: 80)</data>
   <data key="schedule.executiondescweekly">Это задание выполняется раз в неделю.</data>
-  <data key="schedule.endtimedesc">Определите время, когда Вася останавливается для выполнения задачи в течение каждого дня.</data>
+  <data key="schedule.endtimedesc">Определите время, когда Green останавливается для выполнения задачи в течение каждого дня.</data>
   <data key="schedule.executiondescevery">Эта задача выполняется через определенный интервал.</data>
   <data key="schedule.enddatedesc">Определите дату, когда задача должна быть выполнена в последний раз.</data>
   <data key="schedule.namemissing">Пожалуйста, введите значение имени задачи</data>
@@ -1050,7 +1050,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="schedule.proxyusername">Имя пользователя для доступа к прокси, если он защищен аутентификацией</data>
   <data key="schedule.name">Имя</data>
   <data key="schedule.intervaltype">Тип интервала</data>
-  <data key="schedule.currentdatetime">Текущая дата/время этого контекста Васи:</data>
+  <data key="schedule.currentdatetime">Текущая дата/время этого контекста Green:</data>
   <data key="schedule.weekly">еженедельно</data>
   <data key="schedule.endsat">Дата окончания</data>
   <data key="schedule.executiontimedescdaily">Определяет время выполнения Задания ежедневно</data>
@@ -1064,7 +1064,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="schedule.endtime">Время окончания</data>
   <data key="schedule.startdate">Дата начала</data>
   <data key="schedule.password">Пароль</data>
-  <data key="schedule.starttimedesc">Определяет время, когда Вася начинает выполнять задание в течение каждого дня.</data>
+  <data key="schedule.starttimedesc">Определяет время, когда Green начинает выполнять задание в течение каждого дня.</data>
   <data key="schedule.once">однажды</data>
   <data key="schedule.resume">резюме</data>
   <data key="schedule.intervaltypedesc">Интервал выполнения новой задачи</data>
@@ -1148,7 +1148,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.dbtimezone">Часовой пояс</data>
   <data key="settings.dbtimezoneDesc">Когда вы определяете дату в виде строки (не с помощью cfqueryparam) внутри cfquery, обычно в ней нет информации о часовом поясе, а строка даты основана на часовом поясе локали. Поэтому база данных будет интерпретировать эту строку даты на основе своего собственного часового пояса.
 Если часовой пояс вашего экземпляра Green и вашей базы данных отличается, это может привести к проблемам. Из-за этого Green теперь позволяет вам определять часовой пояс для конкретного определения источника данных. Имейте в виду, что вам следует определять определенный часовой пояс только в том случае, если вы на 100% уверены, что этот часовой пояс используется на сервере базы данных и он отличается от часового пояса экземпляра Green. Этот параметр может быть перезаписан атрибутом cfquery "часовой пояс".</data>
-  <data key="settings.dbtimezoneSame">То же, что и экземпляр Васи</data>
+  <data key="settings.dbtimezoneSame">То же, что и экземпляр Green</data>
   <data key="settings.dbblobdesc">Включить извлечение больших двоичных объектов (&amp;lt;abbr title="binary large object"&amp;gt;BLOB&amp;lt;/abbr&amp;gt;)</data>
   <data key="settings.dbclobdesc">Включить поиск длинного текста (&amp;lt;abbr title="character large object"&amp;gt;CLOB&amp;lt;/abbr&amp;gt;)</data>
   <data key="settings.exportAppCFC">Экспорт Application.cfc</data>
@@ -1160,21 +1160,21 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.dbhost">Хост/сервер</data>
   <data key="settings.dbconnlimitinf">- инф -</data>
   <data key="settings.type">Тип</data>
-  <data key="regional.timeserverdescription">Сервер времени, который возвращает текущее время.  Если задано, это время будет использоваться внутри Васи вместо локального времени сервера.  (Пример: swisstime.ethz.ch, time.nist.gov)</data>
-  <data key="regional.server">Здесь вы можете определить региональные настройки, которые будут использоваться по умолчанию для всех веб-контекстов.  Эти настройки не имеют прямого влияния на текущий экземпляр.  Вася позволяет вам установить свою собственную локаль, часовой пояс и сервер времени.</data>
+  <data key="regional.timeserverdescription">Сервер времени, который возвращает текущее время.  Если задано, это время будет использоваться внутри Green вместо локального времени сервера.  (Пример: swisstime.ethz.ch, time.nist.gov)</data>
+  <data key="regional.server">Здесь вы можете определить региональные настройки, которые будут использоваться по умолчанию для всех веб-контекстов.  Эти настройки не имеют прямого влияния на текущий экземпляр.  Green позволяет вам установить свою собственную локаль, часовой пояс и сервер времени.</data>
   <data key="regional.defaultencodingdescription"></data>
-  <data key="regional.web">Вася позволяет вам установить свою собственную локаль, часовой пояс и сервер времени.</data>
+  <data key="regional.web">Green позволяет вам установить свою собственную локаль, часовой пояс и сервер времени.</data>
   <data key="regional.timezone">Часовой пояс</data>
   <data key="regional.timeserver">Сервер времени (NTP)</data>
   <data key="regional.usetimeserver">использовать сервер времени</data>
   <data key="regional.other">--- Другой ---</data>
-  <data key="regional.timezonedescription">Укажите желаемый часовой пояс для Васи, это также изменит время для контекста веба.</data>
+  <data key="regional.timezonedescription">Укажите желаемый часовой пояс для Green, это также изменит время для контекста веба.</data>
   <data key="regional.timeservermissing">Пожалуйста, укажите значение для часового пояса поля</data>
   <data key="regional.defaultencoding">Кодировка по умолчанию</data>
   <data key="regional.serverprop.web">Значение администратора сервера</data>
   <data key="regional.serverprop.server">Стоимость сервера</data>
   <data key="regional.locale">Регион</data>
-  <data key="regional.localedescription">Определите желаемую локаль времени для Васи, это изменит локаль по умолчанию для контекста сети.</data>
+  <data key="regional.localedescription">Определите желаемую локаль времени для Green, это изменит локаль по умолчанию для контекста сети.</data>
   <data key="regional.missingencoding">Пожалуйста, введите значение для кодировки по умолчанию</data>
   <data key="cfx.missingclassvalue">Введите значение для класса (строка</data>
   <data key="cfx.cfxtags">Теги Java CFX</data>
@@ -1203,8 +1203,8 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="setting.scopeApplication">заявка</data>
   <data key="setting.scopeClient">Клиент</data>
   <data key="setting.cpu">ЦПУ</data>
-  <data key="setting.cpuDesc">Средняя загрузка ЦП за последние 20 секунд для всей системы и этой виртуальной машины Java (процесс Вася).</data>
-  <data key="setting.cpuProcess">Вася Процесс</data>
+  <data key="setting.cpuDesc">Средняя загрузка ЦП за последние 20 секунд для всей системы и этой виртуальной машины Java (процесс Green).</data>
+  <data key="setting.cpuProcess">Green Процесс</data>
   <data key="setting.cpuSystem">Целая система</data>
   <data key="setting.datasource">Подключения к источникам данных</data>
   <data key="setting.datasourceDesc">Открытые подключения к источникам данных.</data>
@@ -1213,23 +1213,23 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="setting.taskOpen">Активный</data>
   <data key="setting.taskClose">Не удалось</data>
   <data key="Overview.resources">Внешние ресурсы</data>
-  <data key="Overview.onlineDocsDesc">Вася онлайн документация.</data>
+  <data key="Overview.onlineDocsDesc">Green онлайн документация.</data>
   <data key="Overview.localRefDesc">Локальная ссылка на теги, функции и компоненты.</data>
   <data key="overview.installedtls">Установленные библиотеки тегов</data>
   <data key="overview.bugreport">Отчет об ошибке</data>
   <data key="overview.Docs">Документация</data>
-  <data key="overview.DocsDesc">Если у вас есть какие-либо вопросы о Васе, пожалуйста, сначала посмотрите документацию.</data>
+  <data key="overview.DocsDesc">Если у вас есть какие-либо вопросы о Green, пожалуйста, сначала посмотрите документацию.</data>
   <data key="overview.onlineDocsLink">Онлайн-документация</data>
   <data key="overview.localRefLink">Местная ссылка</data>
   <data key="overview.issuetracker">Трекер проблем</data>
   <data key="overview.issuetrackerDesc">Если вы считаете, что нашли ошибку, найдите время, чтобы сообщить о ней через нашу систему отслеживания ошибок.</data>
-  <data key="overview.book">Книга (Вася 3 Руководство для начинающих)</data>
-  <data key="overview.bookDesc">Полное руководство по разработке приложения с Васей от начала до конца.</data>
-  <data key="overview.datetime">Вася дата/время</data>
+  <data key="overview.book">Книга (Green 3 Руководство для начинающих)</data>
+  <data key="overview.bookDesc">Полное руководство по разработке приложения с Green от начала до конца.</data>
+  <data key="overview.datetime">Green дата/время</data>
   <data key="overview.forum">Форум</data>
   <data key="overview.featurerequestmail">features@Green.ch</data>
   <data key="overview.licenceprofessional">Профессиональный</data>
-  <data key="overview.licencecommunitydesc">Сообщество Green предназначено для соискателей с небольшим бюджетом.  За исключением нескольких ограничений, версия для сообщества предлагает весь языковой диапазон Васи.</data>
+  <data key="overview.licencecommunitydesc">Сообщество Green предназначено для соискателей с небольшим бюджетом.  За исключением нескольких ограничений, версия для сообщества предлагает весь языковой диапазон Green.</data>
   <data key="overview.licenceenterprisedesc">Корпоративная версия Green — самая большая и полная версия, предназначенная для использования в более широком контексте.</data>
   <data key="overview.licenceenterprise">Предприятие</data>
   <data key="overview.contact">Контакт</data>
@@ -1240,12 +1240,12 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.twitter">Твиттер</data>
   <data key="overview.twitterDesc">Следуйте за нами на Twitter.</data>
   <data key="overview.blog">Блог</data>
-  <data key="overview.blogDesc">Самые свежие новости от Васи всегда публикуются в нашем блоге.</data>
+  <data key="overview.blogDesc">Самые свежие новости от Green всегда публикуются в нашем блоге.</data>
   <data key="overview.mailinglist">Список рассылки</data>
   <data key="overview.mailinglistDesc">Список рассылки находится в центре внимания нашей программы поддержки сообщества - помощь пользователям пользователями.</data>
   <data key="overview.warning.warningMsg">Сервлет REST не настроен в вашей среде!</data>
-  <data key="overview.warning.JavaVersion">Вы запускаете Васю с Java</data>
-  <data key="overview.warning.JavaVersionNotSupport">Формально Вася не поддерживает эту версию Java.  Рассмотрите возможность обновления до последней версии Java из соображений безопасности и производительности.</data>
+  <data key="overview.warning.JavaVersion">Вы запускаете Green с Java</data>
+  <data key="overview.warning.JavaVersionNotSupport">Формально Green не поддерживает эту версию Java.  Рассмотрите возможность обновления до последней версии Java из соображений безопасности и производительности.</data>
   <data key="overview.warning.Java7NotSupport">Java 7 была прекращена с апреля 2015 года.</data>
   <data key="overview.contexts.desc">Здесь вы можете пометить свои веб-контексты, чтобы их было легче различить для использования с расширениями и т. д. Меткой веб-контекста по умолчанию является хэш MD5 его веб-корня.</data>
   <data key="overview.professional">Профессиональная поддержка</data>
@@ -1257,8 +1257,8 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.contexts.url">URL-адрес</data>
   <data key="overview.contexts.title">Веб-контексты</data>
   <data key="overview.contexts.config_file">Конфигурационный файл</data>
-  <data key="overview.licencedesc">Вася доступен в четырех различных редакциях, адаптированных к различным областям применения и бюджетам.</data>
-  <data key="overview.serialnumberdescription">Серийный номер для Васи</data>
+  <data key="overview.licencedesc">Green доступен в четырех различных редакциях, адаптированных к различным областям применения и бюджетам.</data>
+  <data key="overview.serialnumberdescription">Серийный номер для Green</data>
   <data key="overview.cfcompatibility">ColdFusion®  версия совместимости</data>
   <data key="overview.os">Операционные системы</data>
   <data key="overview.salesmail">sales@lucee.ch</data>
@@ -1266,7 +1266,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.bugreportmail">bugs@lucee.ch</data>
   <data key="overview.purchase">Приобретите лицензию Green</data>
   <data key="overview.sales">Продажи</data>
-  <data key="overview.licenceprofessionaldesc">Профессиональная версия предлагает полный языковой диапазон Васи, никаких ограничений на использование какой-либо функции ожидать не приходится.  Профессиональная версия позволяет использовать несколько веб-контекстов на одном сервере, однако количество веб-контекстов ограничено стоимостью лицензии.</data>
+  <data key="overview.licenceprofessionaldesc">Профессиональная версия предлагает полный языковой диапазон Green, никаких ограничений на использование какой-либо функции ожидать не приходится.  Профессиональная версия позволяет использовать несколько веб-контекстов на одном сервере, однако количество веб-контекстов ограничено стоимостью лицензии.</data>
   <data key="overview.used">В настоящее время используется</data>
   <data key="overview.licencecommunity">Сообщество</data>
   <data key="overview.remote_addr">Удаленный IP-адрес</data>
@@ -1275,8 +1275,8 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="overview.contactinfo">Информация</data>
   <data key="overview.versionname">Название версии</data>
   <data key="overview.mailinglist_de">Список рассылки (немецкий)</data>
-  <data key="overview.introdesc.web">Вася, движок CFML - бесплатный, с открытым исходным кодом и простой в использовании.  Этот веб-администратор предоставляется для настройки вашего веб-контекста.</data>
-  <data key="overview.introdesc.server">Администратор сервера позволяет вам устанавливать обновления и патчи для вашей установки Васи и перезапускать движок одним щелчком мыши.  Вы можете настраивать новые веб-контексты и определять ограничения и конфигурации для отдельных веб-контекстов.</data>
+  <data key="overview.introdesc.web">Green, движок CFML - бесплатный, с открытым исходным кодом и простой в использовании.  Этот веб-администратор предоставляется для настройки вашего веб-контекста.</data>
+  <data key="overview.introdesc.server">Администратор сервера позволяет вам устанавливать обновления и патчи для вашей установки Green и перезапускать движок одним щелчком мыши.  Вы можете настраивать новые веб-контексты и определять ограничения и конфигурации для отдельных веб-контекстов.</data>
   <data key="overview.infomail">info@lucee.ch</data>
   <data key="overview.servertime">Дата/время сервера:</data>
   <data key="overview.version">Версия</data>
@@ -1332,14 +1332,14 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="doc.filterByKeyword">Фильтровать по ключевому слову"</data>
   <!-- documentation.tagRef.cfm -->
   <data key="doc.attr.values">поддерживаются следующие значения:</data>
-  <data key="help.logotitle">Вася помогите</data>
+  <data key="help.logotitle">Green помогите</data>
   <data key="help.closewindow">Закрытое окно</data>
-  <data key="help.videohelp">Вася - онлайн видео помощь</data>
+  <data key="help.videohelp">Green - онлайн видео помощь</data>
   <data key="help.videohelpnotavailable">Интерактивная видеопомощь недоступна для этой страницы</data>
-  <data key="help.globalhelp">Вася - глобальная онлайн-помощь</data>
+  <data key="help.globalhelp">Green - глобальная онлайн-помощь</data>
   <data key="help.globalhelpnotavailable">Глобальная интерактивная справка недоступна для этой страницы</data>
   <data key="help.globalhelpnotconnected">Глобальная справка недоступна - Проблемы с подключением</data>
-  <data key="help.localhelp">Вася - местная помощь</data>
+  <data key="help.localhelp">Green - местная помощь</data>
   <data key="help.addlocalhelp">Нажмите здесь, чтобы добавить локальную справку для этой страницы</data>
   <data key="help.addhelpnote">Добавить справку</data>
   <data key="help.addnote">Добавить заметку</data>
@@ -1433,11 +1433,11 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="settings.orm.title">Настройки</data>
   <data key="settings.orm.desc">Здесь вы можете определить настройки по умолчанию для конфигурации ORM, эти настройки могут быть перезаписаны в Application.cfc с помощью структуры "ormsettings".</data>
   <data key="settings.orm.autogenmap">Автоматически генерировать сопоставление</data>
-  <data key="settings.orm.autogenmapDesc">Указывает, должен ли Вася автоматически генерировать сопоставление для постоянных CFC.  Если отключено, сопоставление должно предоставляться в виде файлов .HBMXML.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.autogenmap=true]</data>
+  <data key="settings.orm.autogenmapDesc">Указывает, должен ли Green автоматически генерировать сопоставление для постоянных CFC.  Если отключено, сопоставление должно предоставляться в виде файлов .HBMXML.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.autogenmap=true]</data>
   <data key="settings.orm.catalog">Каталог</data>
   <data key="settings.orm.catalogDesc">Указывает каталог по умолчанию, который должен использоваться ORM.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.catalog='db']</data>
   <data key="settings.orm.cfclocation">Постоянное расположение компонентов</data>
-  <data key="settings.orm.cfclocationDesc">Указывает каталог, который следует использовать для поиска постоянных CFC для создания сопоставления.  Если задан cfclocation, Вася просматривает только указанные в нем пути.  Если он не установлен, Вася просматривает каталог приложения, его подкаталоги и сопоставленные с ним каталоги для поиска постоянных Компонентов.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.cfclocation='...']</data>
+  <data key="settings.orm.cfclocationDesc">Указывает каталог, который следует использовать для поиска постоянных CFC для создания сопоставления.  Если задан cfclocation, Green просматривает только указанные в нем пути.  Если он не установлен, Green просматривает каталог приложения, его подкаталоги и сопоставленные с ним каталоги для поиска постоянных Компонентов.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.cfclocation='...']</data>
   <data key="settings.orm.dbcreate">Поведение при создании таблиц</data>
   <data key="settings.orm.dbcreateDesc">Green ORM может автоматически создавать таблицы для вашего приложения в базе данных при инициализации ORM для приложения.  Этот параметр можно перезаписать в Application.cfc следующим образом [this.ormsettings.dbcreate='none']</data>
   <data key="settings.orm.dbcreateNone">Установка этого значения ничего не меняет в схеме базы данных.</data>
@@ -1464,7 +1464,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="services.update.location_releaseDesc">Релизы тщательно тестируются и рекомендуются для производственных сред.</data>
   <data key="services.update.provider">Поставщик обновлений</data>
   <data key="services.update.customProvider">Пользовательский поставщик обновлений</data>
-  <data key="services.update.luceeProvider">Провайдер обновлений Васи</data>
+  <data key="services.update.luceeProvider">Провайдер обновлений Green</data>
   <data key="services.update.alphaBetaRelease">Альфа, Бета, Релиз-кандидат</data>
   <data key="services.update.location_www">Стабильные версии</data>
   <data key="services.update.location_wwwDesc">Этот поставщик обновлений (release.lucee.org) возвращает только стабильные версии.  Найденные здесь версии тщательно протестированы.  Этот источник рекомендуется для производственных сред.</data>
@@ -1473,7 +1473,7 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="services.update.location_dev">Разрабатываемые выпуски (Bleeding Edge)</data>
   <data key="services.update.location_devDesc">Этот поставщик обновлений (dev.lucee.org) возвращает версии «Bleeding Edge».  Обычно на этих версиях проводилось лишь небольшое количество испытаний.  Этот источник НЕ следует использовать для производственных сред.</data>
   <data key="services.update.location_custom">Обычай</data>
-  <data key="services.update.location_customDesc">Вася позволяет вам определить своего собственного поставщика обновлений, просто указав URL-адрес остальной службы, предоставляющей необходимые данные.  Пожалуйста, обратитесь к документации Green на {url} для получения более подробной информации о том, как определить пользовательский поставщик обновлений.</data>
+  <data key="services.update.location_customDesc">Green позволяет вам определить своего собственного поставщика обновлений, просто указав URL-адрес остальной службы, предоставляющей необходимые данные.  Пожалуйста, обратитесь к документации Green на {url} для получения более подробной информации о том, как определить пользовательский поставщик обновлений.</data>
   <!-- services.update.functions.cfm -->
   <data key="services.update.serverNotReachable">Не удалось связаться с сервером {url}.</data>
   <data key="services.update.serverFailed">серверу {url} не удалось вернуть правильный ответ.</data>
@@ -1515,5 +1515,5 @@ sct[""bracketNotation""] --&amp;amp;amp;gt; ключевое слово: "bracke
   <data key="mail.TimeoutDesc">Время в секундах, в течение которого Диспетчер задач ожидает отправки одного письма, по истечении которого Диспетчер задач останавливает поток, и почта перемещается в неотправленную папку, где Диспетчер задач заберет ее позже, чтобы попытаться отправить ее снова.</data>
   <data key="mail.seconds">Секунды</data>
   <data key="overview.servletContainer">Контейнер сервлетов</data>
-  <data key="overview.luceeID">Вася ID сервера</data>
+  <data key="overview.luceeID">Green ID сервера</data>
 </language>
